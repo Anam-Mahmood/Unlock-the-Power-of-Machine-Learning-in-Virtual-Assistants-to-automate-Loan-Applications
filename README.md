@@ -129,7 +129,8 @@ image actions
 6.	Once the action is created you will need to add an API KEY under the "Parameters" tab that we created in Step 2.
 7.	Under the "Code" tab, paste the below code.
 
-` # main() will be run when you invoke this action
+`
+` # main() will be run when you invoke this action `
 # @param Cloud Functions actions accept a single parameter, which must be a JSON object.
 # @return The output of this action, which must be a JSON object.
 
