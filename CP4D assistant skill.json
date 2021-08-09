@@ -1,0 +1,4111 @@
+{
+  "intents": [
+    {
+      "intent": "Banking_Activate_Card",
+      "examples": [
+        {
+          "text": "Can I initiate credit card with atm?"
+        },
+        {
+          "text": "Can you assist me in re-enabling a card via automated teller machine?"
+        },
+        {
+          "text": "How do I reactivate a credit card account?"
+        },
+        {
+          "text": "How long does the credit card activation takes?"
+        },
+        {
+          "text": "How to initiate a credit card?"
+        },
+        {
+          "text": "I got a new card"
+        },
+        {
+          "text": "I need to activate it my card"
+        },
+        {
+          "text": "I need your help for mastercard credit card activation"
+        },
+        {
+          "text": "Is pin necessary to activate a card?"
+        },
+        {
+          "text": "I want credit card activation keys"
+        },
+        {
+          "text": "I want to activate master card by text"
+        },
+        {
+          "text": "I want to activate my card."
+        },
+        {
+          "text": "I want to activate my credit card by internet banking"
+        },
+        {
+          "text": "I want to reactive my cancelled card"
+        },
+        {
+          "text": "I want to turn on my new visa card"
+        },
+        {
+          "text": "Please help me with first time activation for credit card"
+        },
+        {
+          "text": "What are the steps for turning on a new card?"
+        },
+        {
+          "text": "What is the process to activate credit card after cancellation?"
+        },
+        {
+          "text": "What should I do to setup my credit card for online payments?"
+        },
+        {
+          "text": "When will my credit card begin working?"
+        }
+      ],
+      "description": "Activate a card."
+    },
+    {
+      "intent": "Banking_Cancel_Card",
+      "examples": [
+        {
+          "text": "Annual charges are high hence want to cancel my credit card"
+        },
+        {
+          "text": "Cancel a card"
+        },
+        {
+          "text": "Can I cancel a credit card I just applied for?"
+        },
+        {
+          "text": "Can I cancel my credit card if I have some pending dues?"
+        },
+        {
+          "text": "Details on how to apply for cancellation of credit card"
+        },
+        {
+          "text": "How to cancel a credit card without hurting its score?"
+        },
+        {
+          "text": "How to close credit card online?"
+        },
+        {
+          "text": "How to deactivate credit?"
+        },
+        {
+          "text": "I am not able to curb my spendings on credit card and so I want to close it"
+        },
+        {
+          "text": "I am not using credit card tell me how can I deactivate it"
+        },
+        {
+          "text": "I no longer need this credit card"
+        },
+        {
+          "text": "I want to know about credit deactivation process"
+        },
+        {
+          "text": "I want to raise request for deactivating my credit card"
+        },
+        {
+          "text": "Please assist me to revoke my credit card"
+        },
+        {
+          "text": "Please revoke my credit card"
+        },
+        {
+          "text": "Tell me the ways through which I can close my credit card"
+        },
+        {
+          "text": "What are the ways for closing credit card?"
+        },
+        {
+          "text": "What is the procedure for credit card deactivation?"
+        },
+        {
+          "text": "What is the process for closing credit card?"
+        },
+        {
+          "text": "What is the way to deactivate my credit card?"
+        }
+      ],
+      "description": "Cancel a card."
+    },
+    {
+      "intent": "Banking_Fee_Inquiry",
+      "examples": [
+        {
+          "text": "Can you tell me about how much fee the bank charged for last month on my credit card?"
+        },
+        {
+          "text": "Charges included in credit card"
+        },
+        {
+          "text": "Could you provide additional information regarding card fees?"
+        },
+        {
+          "text": "Does it cost me anything to apply with your company for a credit card?"
+        },
+        {
+          "text": "Fee on my card"
+        },
+        {
+          "text": "Give me more option about credit card charges"
+        },
+        {
+          "text": "How can I pay the fee of credit card?"
+        },
+        {
+          "text": "How much do you charge to my credit card?"
+        },
+        {
+          "text": "How much we pay for the maintenance fee?"
+        },
+        {
+          "text": "I need assistance finding my credit card fee"
+        },
+        {
+          "text": "Is there some charge for credit card?"
+        },
+        {
+          "text": "I want to know about credit card costs."
+        },
+        {
+          "text": "I want to see the costs associated with this card"
+        },
+        {
+          "text": "I would like to find out the cost of my credit card"
+        },
+        {
+          "text": "Need some help with my credit card charges/fees"
+        },
+        {
+          "text": "What are the charges for new credit card?"
+        },
+        {
+          "text": "What are the fees?"
+        },
+        {
+          "text": "What is the charge for card?"
+        },
+        {
+          "text": "Where can I see the cost for buying the credit card?"
+        },
+        {
+          "text": "Where is the credit card fee information?"
+        }
+      ],
+      "description": "Inquire about fees associated with a card."
+    },
+    {
+      "intent": "Banking_Replace_Card",
+      "examples": [
+        {
+          "text": "Can I get info on replacing my credit card?"
+        },
+        {
+          "text": "Can I have helpline number to ask credit card replacement?"
+        },
+        {
+          "text": "Can I request a replacement for my card online?"
+        },
+        {
+          "text": "Can you tell me how to re-issue a credit card?"
+        },
+        {
+          "text": "Card need to be replaced as it does not work"
+        },
+        {
+          "text": "Credit credit card replacement methods"
+        },
+        {
+          "text": "Do I need to validate my new home address in order to get a card replacement?"
+        },
+        {
+          "text": "How do I get a card reissued?"
+        },
+        {
+          "text": "How do I go about requesting a new card?"
+        },
+        {
+          "text": "I need some information on how to replace credit card"
+        },
+        {
+          "text": "I need to get a new card"
+        },
+        {
+          "text": "I want card replacement same day"
+        },
+        {
+          "text": "I want to opt for the replacement of my card as it has worn out"
+        },
+        {
+          "text": "I would like to know how to replace my credit card."
+        },
+        {
+          "text": "Please substitute a new card for the worn-out one"
+        },
+        {
+          "text": "Please take this old credit card and give me new one"
+        },
+        {
+          "text": "Replacement for banking credit card"
+        },
+        {
+          "text": "What are the methods using which I can get a new card by replacing it with old one?"
+        },
+        {
+          "text": "What is the cost for credit card replacement?"
+        },
+        {
+          "text": "Where from can I issue another card?"
+        }
+      ],
+      "description": "Replace a card."
+    },
+    {
+      "intent": "Banking_Report_Missing_Card",
+      "examples": [
+        {
+          "text": "Can I lock my credit card until I find it?"
+        },
+        {
+          "text": "Help! I left my credit card with my purse in the taxi and I'm afraid someone's gonna use it"
+        },
+        {
+          "text": "How can I cancel my credit card which was stolen?"
+        },
+        {
+          "text": "How do I file for a missing card?"
+        },
+        {
+          "text": "How do I go about reporting a card theft?"
+        },
+        {
+          "text": "How do I report the theft of my credit card?"
+        },
+        {
+          "text": "How much is the charge for a lost card?"
+        },
+        {
+          "text": "I have lost my credit card and I want to deactivate it"
+        },
+        {
+          "text": "I have no idea where I placed my debit card"
+        },
+        {
+          "text": "I need assistance as I've lost my credit card"
+        },
+        {
+          "text": "Is there any charge for registering a complaint for credit card loss?"
+        },
+        {
+          "text": "I would like to know what to do if I lose my credit card"
+        },
+        {
+          "text": "My credit card is lost how should I cancel it"
+        },
+        {
+          "text": "Someone took my card!"
+        },
+        {
+          "text": "What are the options with the card loss?"
+        },
+        {
+          "text": "What if I lose the card?"
+        },
+        {
+          "text": "What is the procedure to report stolen card?"
+        },
+        {
+          "text": "What is the way to report a lost card?"
+        },
+        {
+          "text": "What steps can I take when I lose my credit card?"
+        },
+        {
+          "text": "What steps should be taken in the event of a missing credit card?"
+        }
+      ],
+      "description": "Report a lost or stolen card."
+    },
+    {
+      "intent": "Banking_Request_Card_Member_Agreement",
+      "examples": [
+        {
+          "text": "Can I see the agreement?"
+        },
+        {
+          "text": "Can you tell me how can I request card holder agreement?"
+        },
+        {
+          "text": "Does my card member agreement give all information about charges on credit card?"
+        },
+        {
+          "text": "Do I have to fill out a new member agreement for a replaced card?"
+        },
+        {
+          "text": "Do I need to sign card member agreement?"
+        },
+        {
+          "text": "How can I request card holder agreement?"
+        },
+        {
+          "text": "How soon will you tell me about modifications made to the bank card agreement?"
+        },
+        {
+          "text": "How will I get card member agreement on email?"
+        },
+        {
+          "text": "I need a copy of my card agreement"
+        },
+        {
+          "text": "I need information about cardholder member agreement. please help with the same"
+        },
+        {
+          "text": "I never got the cardmember agreement. can you post/email me?"
+        },
+        {
+          "text": "It would be great if you help me with cardholder member agreement"
+        },
+        {
+          "text": "I want pdf of cardmember agreement"
+        },
+        {
+          "text": "Looking for credit card member agreement"
+        },
+        {
+          "text": "Looking for my credit card account agreement"
+        },
+        {
+          "text": "What are arbitration clauses in cardmember agreement?"
+        },
+        {
+          "text": "When I will receive credit member agreement?"
+        },
+        {
+          "text": "Who do I contact for card member agreement?"
+        },
+        {
+          "text": "Will it cost me to receive a copy of the card holder agreement?"
+        },
+        {
+          "text": "Will there be a new card member agreement for my renewed card?"
+        }
+      ],
+      "description": "Request a card member agreement."
+    },
+    {
+      "intent": "Banking_Request_Checkbook",
+      "examples": [
+        {
+          "text": "Can I check the status of my check book request?"
+        },
+        {
+          "text": "Can I order checkbook thru this chat window?"
+        },
+        {
+          "text": "Can you please send me some checks?"
+        },
+        {
+          "text": "Can you tell me some options about check book issue?"
+        },
+        {
+          "text": "Could you help me get a checkbook?"
+        },
+        {
+          "text": "Do you have check book request details?"
+        },
+        {
+          "text": "Do you issue check books?"
+        },
+        {
+          "text": "Help with check requisition"
+        },
+        {
+          "text": "How do I receive a new copy of my check book?"
+        },
+        {
+          "text": "How to get another check book?"
+        },
+        {
+          "text": "I'm all outta checks"
+        },
+        {
+          "text": "I'm calling for help in ordering a new checkbook please."
+        },
+        {
+          "text": "I need assistance on getting check book"
+        },
+        {
+          "text": "Is it possible for me to receive a checkbook?"
+        },
+        {
+          "text": "I want to apply for a checkbook"
+        },
+        {
+          "text": "I want to know my check book request status"
+        },
+        {
+          "text": "Please give me the information on how to request the check-book"
+        },
+        {
+          "text": "What are charges for a new checkbook?"
+        },
+        {
+          "text": "What is helpline number for requesting checkbook?"
+        },
+        {
+          "text": "What is the option for check book renewal?"
+        }
+      ],
+      "description": "Request a checkbook."
+    },
+    {
+      "intent": "Banking_Request_Increase_In_Credit_Line",
+      "examples": [
+        {
+          "text": "Can you extend my current card limitation?"
+        },
+        {
+          "text": "Credit bump"
+        },
+        {
+          "text": "Does my credit card usage have impact on increasing the credit line?"
+        },
+        {
+          "text": "How can I add limit to credit card?"
+        },
+        {
+          "text": "How do I raise credit card limit?"
+        },
+        {
+          "text": "How often does bank increase credit limit?"
+        },
+        {
+          "text": "How to apply for increase in credit limit?"
+        },
+        {
+          "text": "I am not getting on how to increase credit limit"
+        },
+        {
+          "text": "I'd like a higher credit ceiling please"
+        },
+        {
+          "text": "I need to change my credit card limit"
+        },
+        {
+          "text": "I want to know about credit limitation"
+        },
+        {
+          "text": "I want to submit my latest salary slip to enhance my credit card limit"
+        },
+        {
+          "text": "I would like to have a bigger credit line"
+        },
+        {
+          "text": "Requesting you to remove credit restrictions"
+        },
+        {
+          "text": "There is a hospital emergency. can you increase my credit limit"
+        },
+        {
+          "text": "Upgrade credit limit"
+        },
+        {
+          "text": "What are the methods with which I can improve my credit line?"
+        },
+        {
+          "text": "What are the steps involved in increasing credit line?"
+        },
+        {
+          "text": "Where do I request a credit increase?"
+        },
+        {
+          "text": "Who approves the credit limit extension?"
+        }
+      ],
+      "description": "Request an increased credit limit."
+    },
+    {
+      "intent": "Banking_Set_Up_Direct_Deposit",
+      "examples": [
+        {
+          "text": "Can I set up a direct deposit without a checkbook?"
+        },
+        {
+          "text": "Can you deposit my salary right into my account?"
+        },
+        {
+          "text": "Can you mail me the direct deposit form to my residential address?"
+        },
+        {
+          "text": "Does the mobile app offer direct deposit?"
+        },
+        {
+          "text": "From where should I sign up for direct deposit"
+        },
+        {
+          "text": "How do I setup direct deposit?"
+        },
+        {
+          "text": "How to sign up for direct deposit?"
+        },
+        {
+          "text": "How to use on-line banking for direct credit?"
+        },
+        {
+          "text": "I have query regarding process of direct deposit"
+        },
+        {
+          "text": "I want to ask about direct deposit"
+        },
+        {
+          "text": "Please guide me with direct deposit process"
+        },
+        {
+          "text": "Set up direct deposit"
+        },
+        {
+          "text": "Show me process to setup direct deposit"
+        },
+        {
+          "text": "What all details I need to fill direct deposit form?"
+        },
+        {
+          "text": "What are steps for setting up direct deposit?"
+        },
+        {
+          "text": "What are ways for setting up direct deposit?"
+        },
+        {
+          "text": "What is process to setup direct deposit?"
+        },
+        {
+          "text": "What is the way to do direct deposit?"
+        },
+        {
+          "text": "When setting up direct deposit what does deposit type mean?"
+        },
+        {
+          "text": "Where is option of direct deposit in net banking?"
+        }
+      ],
+      "description": "Set up a direct deposit for an account."
+    },
+    {
+      "intent": "Banking_Transfer_Money",
+      "examples": [
+        {
+          "text": "Can I send my sister some money?"
+        },
+        {
+          "text": "Can you please help me with wire transaction?"
+        },
+        {
+          "text": "Could you please assist me with transferring funds?"
+        },
+        {
+          "text": "Could you please tell me how to transfer money?"
+        },
+        {
+          "text": "How can I transfer funds electronically?"
+        },
+        {
+          "text": "How do I add payee to my external account lists?"
+        },
+        {
+          "text": "How do I set up recurring external transfers?"
+        },
+        {
+          "text": "How much overseas wires fund charge?"
+        },
+        {
+          "text": "I need support for international bank transfer"
+        },
+        {
+          "text": "I wand to send a wire is it secure and convenient"
+        },
+        {
+          "text": "I want to transfer some amount to another account within the same bank"
+        },
+        {
+          "text": "Please walk me through the process of wire transfer"
+        },
+        {
+          "text": "Transfer to checking"
+        },
+        {
+          "text": "Transfer to outside account on app"
+        },
+        {
+          "text": "What are the options to move money to outside bank account?"
+        },
+        {
+          "text": "What is the daily limit to transfer money to some other bank?"
+        },
+        {
+          "text": "When will the beneficiary receive the wire transferred money?"
+        },
+        {
+          "text": "Where are the internal money transfer option in mobile application?"
+        },
+        {
+          "text": "Where can I do a wire exchange?"
+        },
+        {
+          "text": "Which is the external money transfer maximum limit?"
+        }
+      ],
+      "description": "Transfer funds from one account to another."
+    },
+    {
+      "intent": "Banking_View_Activity",
+      "examples": [
+        {
+          "text": "Can I get statement for account activities in past 10 days?"
+        },
+        {
+          "text": "Do you know about account activities of my checking account?"
+        },
+        {
+          "text": "From where did I get the latest credit in my account"
+        },
+        {
+          "text": "Help me get all the information about all activities of all my checking accounts"
+        },
+        {
+          "text": "Help with viewing activity that take place in an a/c"
+        },
+        {
+          "text": "How can one get account activities details of his a/c?"
+        },
+        {
+          "text": "How do I access checking account activity information?"
+        },
+        {
+          "text": "How much interest amount deposited last month in my account?"
+        },
+        {
+          "text": "I wanna check my account summary"
+        },
+        {
+          "text": "I want someone to help me see account activity and summary for every activity of my account"
+        },
+        {
+          "text": "I would like to see any recent activity on my account before the interest got added"
+        },
+        {
+          "text": "Places where account activity history can be found"
+        },
+        {
+          "text": "Please tell me account activities detail"
+        },
+        {
+          "text": "See transactions"
+        },
+        {
+          "text": "Show activities"
+        },
+        {
+          "text": "Transaction history"
+        },
+        {
+          "text": "View activities"
+        },
+        {
+          "text": "What is the amount of interest that got credited to my a/c?"
+        },
+        {
+          "text": "When was the levy order processed for my checking account?"
+        },
+        {
+          "text": "Where to view my account transaction history for my checking account?"
+        }
+      ],
+      "description": "View the activity on an account."
+    },
+    {
+      "intent": "Banking_View_Pending_Charges",
+      "examples": [
+        {
+          "text": "Any outstanding charges"
+        },
+        {
+          "text": "Can I get some info related to pending charges for my credit card using mobile application?"
+        },
+        {
+          "text": "Can you give me information about the outstanding charges on my credit card?"
+        },
+        {
+          "text": "Can you show me where I can find my charges that have not yet gone through?"
+        },
+        {
+          "text": "Can you show me where I can see any upcoming charges levied on my credit card account?"
+        },
+        {
+          "text": "How can I access credit card pending payments?"
+        },
+        {
+          "text": "How do I review my credit charges awaiting confirmation?"
+        },
+        {
+          "text": "How to get credit card's pending charges on-line?"
+        },
+        {
+          "text": "How to view unsettled charges with my credit card?"
+        },
+        {
+          "text": "I'd like to learn more about the pending charges of my credit card"
+        },
+        {
+          "text": "I need pending charges for card"
+        },
+        {
+          "text": "Is there any information for credit card with pending charges?"
+        },
+        {
+          "text": "I want to know about credit card pending charge"
+        },
+        {
+          "text": "I would like to know about my pending charges"
+        },
+        {
+          "text": "Pending items"
+        },
+        {
+          "text": "Please tell me about the pending charges against me"
+        },
+        {
+          "text": "Show pending"
+        },
+        {
+          "text": "What are the charges for my credit card which are yet to be approved?"
+        },
+        {
+          "text": "What should I know about pending charges on my credit card?"
+        },
+        {
+          "text": "Where can I go over my recent charges pending approval?"
+        }
+      ],
+      "description": "View pending charges on a card account."
+    },
+    {
+      "intent": "Banking_View_Routing_Number",
+      "examples": [
+        {
+          "text": "Can you tell my routing number in this chat window?"
+        },
+        {
+          "text": "Find a routing number without checks"
+        },
+        {
+          "text": "How do I know the routing number?"
+        },
+        {
+          "text": "How to locate bank routing number?"
+        },
+        {
+          "text": "How to search bank routing numbers?"
+        },
+        {
+          "text": "How to view international bank transfer routing number?"
+        },
+        {
+          "text": "I need to find my routing number of my bank account online."
+        },
+        {
+          "text": "Is the bank account number same as the routing number?"
+        },
+        {
+          "text": "I want to make international transaction so I need routing number for that"
+        },
+        {
+          "text": "May I know the routing number?"
+        },
+        {
+          "text": "What is an aba routing number and how do I find it?"
+        },
+        {
+          "text": "What is the aba routing number for your bank?"
+        },
+        {
+          "text": "What swift code and aba routing number I should use to wire transfer fund from foreign country?"
+        },
+        {
+          "text": "Where can I find my bank routing numbers for money transfer?"
+        },
+        {
+          "text": "Where can I find my routing id?"
+        },
+        {
+          "text": "Where can I see my routing id?"
+        },
+        {
+          "text": "Where do I locate my routing number on site please?"
+        },
+        {
+          "text": "Where do I see the routing no?"
+        },
+        {
+          "text": "Where is routing number need to find on check?"
+        },
+        {
+          "text": "Where is the routing transit number located?"
+        }
+      ],
+      "description": "View the routing number."
+    },
+    {
+      "intent": "calculate_loan",
+      "examples": [
+        {
+          "text": "can I calculate the loan"
+        },
+        {
+          "text": "how much loan can i get"
+        },
+        {
+          "text": "I want to calculate my loan"
+        }
+      ]
+    },
+    {
+      "intent": "Loan_howto",
+      "examples": [
+        {
+          "text": "How can I apply for a loan"
+        },
+        {
+          "text": "How do I apply for a loan"
+        },
+        {
+          "text": "What can I do to apply for a loan?"
+        }
+      ],
+      "description": "steps and details about applying for loans"
+    },
+    {
+      "intent": "Loan_question",
+      "examples": [
+        {
+          "text": "Am entitled to apply for a loan"
+        },
+        {
+          "text": "Am I eligible to request a loan"
+        },
+        {
+          "text": "I want to apply for a loan"
+        },
+        {
+          "text": "I want to check my eligibility for a loan"
+        }
+      ],
+      "description": "checking if user is elgibile for a loan"
+    },
+    {
+      "intent": "Loan_requirement",
+      "examples": [
+        {
+          "text": "what are the documents needed to apply for a loan"
+        },
+        {
+          "text": "What are the required documents for loan request"
+        },
+        {
+          "text": "What are the requirements to apply for loan?"
+        },
+        {
+          "text": "what documents do i need to provide to apply for a loan"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Loan_types",
+      "examples": [
+        {
+          "text": "Can you please tell me the types of loans you have"
+        },
+        {
+          "text": "Do you have housing loan",
+          "mentions": [
+            {
+              "entity": "loan_types",
+              "location": [
+                12,
+                19
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Do you offer housing loan",
+          "mentions": [
+            {
+              "entity": "loan_types",
+              "location": [
+                13,
+                20
+              ]
+            }
+          ]
+        },
+        {
+          "text": "What are types of loans"
+        },
+        {
+          "text": "what loans do you offer"
+        }
+      ],
+      "description": "Asking about types of loans"
+    },
+    {
+      "intent": "Mortgage_Apply_for_Mortgage",
+      "examples": [
+        {
+          "text": "how can i apply for a new mortgage"
+        },
+        {
+          "text": "how do i apply for a mortgage"
+        },
+        {
+          "text": "how do i go about applying for a mortgage"
+        },
+        {
+          "text": "i want to apply for a mortgage"
+        },
+        {
+          "text": "what do i need to apply for a mortgage"
+        }
+      ],
+      "description": "Inquire about how to apply for a mortgage."
+    },
+    {
+      "intent": "Mortgage_Apply_Loan_Before_Home",
+      "examples": [
+        {
+          "text": "before i buy a home can i apply for a mortgage"
+        },
+        {
+          "text": "can i apply for a loan before finding a home to purchase"
+        },
+        {
+          "text": "can i apply for a loan before i find a property to purchase"
+        },
+        {
+          "text": "can i apply for a mortgage loan before i find a home to buy"
+        },
+        {
+          "text": "is it possible to apply for a mortage loan before i buy a home"
+        }
+      ],
+      "description": "Inquire about if you can apply for a home loan before purchasing a home."
+    },
+    {
+      "intent": "Mortgage_Borrow_Amount_Inquiry",
+      "examples": [
+        {
+          "text": "how much can i borrow"
+        },
+        {
+          "text": "what is the amount that i can borrow"
+        },
+        {
+          "text": "what is the maximum amount i can borrow"
+        },
+        {
+          "text": "what is the minimum amount i can borrow"
+        },
+        {
+          "text": "what's the maximum amount i can borrow"
+        },
+        {
+          "text": "what's the minimum amount i can borrow"
+        }
+      ],
+      "description": "Inquire about the maximum/minimum amount needed to borrow."
+    },
+    {
+      "intent": "Mortgage_Close_Loan",
+      "examples": [
+        {
+          "text": "how long does it take to close a home mortgage loan"
+        },
+        {
+          "text": "how long will it take to close a mortgage loan"
+        },
+        {
+          "text": "how long would it take to close a first mortgage loan"
+        },
+        {
+          "text": "how quickly can you close on a mortgage loan"
+        },
+        {
+          "text": "id like to close a mortgage loan how long would it take"
+        }
+      ],
+      "description": "Inquire about how to close a mortgage loan."
+    },
+    {
+      "intent": "Mortgage_Closing_Costs_inquiry",
+      "examples": [
+        {
+          "text": "how much will i have to pay in closing costs"
+        },
+        {
+          "text": "how much will i pay in closing costs"
+        },
+        {
+          "text": "what are closing costs"
+        },
+        {
+          "text": "what are my closing costs"
+        },
+        {
+          "text": "what are the closing costs"
+        },
+        {
+          "text": "what will i pay in closing costs"
+        }
+      ],
+      "description": "Inquire about the closing costs."
+    },
+    {
+      "intent": "Mortgage_Contact_Mortgage_Broker",
+      "examples": [
+        {
+          "text": "can i speak with a mortgage broker"
+        },
+        {
+          "text": "get me a broker"
+        },
+        {
+          "text": "get me a mortgage broker"
+        },
+        {
+          "text": "give me a mortgage broker"
+        },
+        {
+          "text": "i need a broker"
+        },
+        {
+          "text": "i need a mortgage broker"
+        },
+        {
+          "text": "i want a mortgage broker to call me"
+        },
+        {
+          "text": "mortgage broker"
+        },
+        {
+          "text": "talk to my broker"
+        },
+        {
+          "text": "talk to my mortgage broker"
+        }
+      ],
+      "description": "Request to speak to a mortgage broker."
+    },
+    {
+      "intent": "Mortgage_Get_Pre_Approved",
+      "examples": [
+        {
+          "text": "can i get pre-approved"
+        },
+        {
+          "text": "how can i get a mortgage pre-approval"
+        },
+        {
+          "text": "how can i get pre-approved"
+        },
+        {
+          "text": "how can I get pre-approved for my mortgage"
+        },
+        {
+          "text": "how do i get pre-approved"
+        }
+      ],
+      "description": "Inquire about how to get preapproved for a mortgage."
+    },
+    {
+      "intent": "Mortgage_How_Much_Down_Payment",
+      "examples": [
+        {
+          "text": "how much cash do i need to buy a home (in addition to closing cost and down payment)"
+        },
+        {
+          "text": "how much do i need for a down payment"
+        },
+        {
+          "text": "how much down payment will i need"
+        },
+        {
+          "text": "how much of a down payment will i need"
+        },
+        {
+          "text": "how much will i need for a down payment"
+        },
+        {
+          "text": "how much will i need for the down payment"
+        },
+        {
+          "text": "what is the minimum down payment required for the purchase of a home financed with pefcu"
+        },
+        {
+          "text": "what is the minimum down payment required to purchase a home"
+        }
+      ],
+      "description": "Inquire about how much down payment is needed."
+    },
+    {
+      "intent": "Mortgage_How_to_Lock_Rate",
+      "examples": [
+        {
+          "text": "can i lock in a rate how can i do that"
+        },
+        {
+          "text": "how do i lock my rate"
+        },
+        {
+          "text": "when can i lock in a rate"
+        },
+        {
+          "text": "when can i lock in my rate"
+        },
+        {
+          "text": "when do i lock in my rate"
+        }
+      ],
+      "description": "Request to lock in a rate."
+    },
+    {
+      "intent": "Mortgage_Make_Mortgage_Payment",
+      "examples": [
+        {
+          "text": "can i make a mortgage payment by phone"
+        },
+        {
+          "text": "can i make a mortgage payment online"
+        },
+        {
+          "text": "how can i make my mortgage payment online"
+        },
+        {
+          "text": "how can i make my mortgage payment online or over the phone"
+        },
+        {
+          "text": "how do i make my mortgage payment"
+        }
+      ],
+      "description": "Request to make a mortgage payment online."
+    },
+    {
+      "intent": "Mortgage_Minimum_Down_Payment_Inquiry",
+      "examples": [
+        {
+          "text": "what is the minimum down payment"
+        },
+        {
+          "text": "what is the minimum down payment for conventional"
+        },
+        {
+          "text": "what is the minimum down payment required by a lender in order to eliminate pmi"
+        },
+        {
+          "text": "what is the minimum down payment required for a home loan"
+        },
+        {
+          "text": "what is the minimum down payment required for this loan"
+        }
+      ],
+      "description": "Inquire about the minimum down payment required."
+    },
+    {
+      "intent": "Mortgage_More_Than_One_Mortgage",
+      "examples": [
+        {
+          "text": "can i have more than one mortgage"
+        },
+        {
+          "text": "can i have more than one mortgage at a time"
+        },
+        {
+          "text": "can i have more than one mortgage on the same house"
+        },
+        {
+          "text": "Can you have more than a single mortgage"
+        },
+        {
+          "text": "is it possible to have more than one mortgage"
+        }
+      ],
+      "description": "Inquire about if you can have more than a single mortgage."
+    },
+    {
+      "intent": "Mortgage_Need_FHA_Loan",
+      "examples": [
+        {
+          "text": "how do i get an fha loan"
+        },
+        {
+          "text": "how do i prequalify for an fha loan"
+        },
+        {
+          "text": "how to get an fha loan"
+        },
+        {
+          "text": "need an fha loan"
+        },
+        {
+          "text": "what is required for an fha loan"
+        },
+        {
+          "text": "who can qualify for an fha loan"
+        }
+      ],
+      "description": "Request information about an FHA loan."
+    },
+    {
+      "intent": "Mortgage_Private_Mortgage_Insurance_Inquiry",
+      "examples": [
+        {
+          "text": "how long do i have to pay for private mortgage insurance (pmi) on my loan"
+        },
+        {
+          "text": "is private mortgage insurance (pmi) tax deductible"
+        },
+        {
+          "text": "is private mortgage insurance required"
+        },
+        {
+          "text": "what are the different types of mortgage insurance"
+        },
+        {
+          "text": "what does mortgage insurance cost"
+        },
+        {
+          "text": "what is lenders mortgage insurance"
+        },
+        {
+          "text": "what is mortgage insurance"
+        },
+        {
+          "text": "what is mortgage insurance and when is it required"
+        },
+        {
+          "text": "what is pmi (private mortgage insurance)"
+        },
+        {
+          "text": "what is private mortgage insurance"
+        },
+        {
+          "text": "what is private mortgage insurance and is it required"
+        },
+        {
+          "text": "what is private mortgage insurance (pmi)"
+        },
+        {
+          "text": "what is private mortgage insurance (pmi) and why do i need it"
+        },
+        {
+          "text": "what is private mortgage insurance (pmi) do i have to pay it"
+        },
+        {
+          "text": "what's mortgage insurance premium (mip) and private mortgage insurance (pmi)"
+        },
+        {
+          "text": "what's private mortgage insurance (pmi)"
+        },
+        {
+          "text": "why do i need private mortgage insurance (pmi)"
+        },
+        {
+          "text": "why is private mortgage insurance (pmi) required"
+        },
+        {
+          "text": "will i need to pay private mortgage insurance (pmi)"
+        }
+      ],
+      "description": "Ask questions about Private Mortgage Insurance (PMI)."
+    },
+    {
+      "intent": "Mortgage_Refinance_Mortgage_Inquiry",
+      "examples": [
+        {
+          "text": "can i refinance an existing reverse mortgage"
+        },
+        {
+          "text": "can i refinance a reverse mortgage like a traditional home mortgage"
+        },
+        {
+          "text": "i had an option one loan but was able to refinance out of it and get a mortgage with another lender. am i still eligible for a loan modification"
+        },
+        {
+          "text": "i have a mortgage and want to refinance"
+        },
+        {
+          "text": "i want to refinance my loan with my existing lender"
+        },
+        {
+          "text": "should i refinance my existing mortgage"
+        },
+        {
+          "text": "should i refinance my mortgage"
+        },
+        {
+          "text": "should you refinance your mortgage"
+        },
+        {
+          "text": "what is a mortgage refinance"
+        },
+        {
+          "text": "what is an fha streamline refinance mortgage loan"
+        },
+        {
+          "text": "why should i refinance"
+        },
+        {
+          "text": "why should i refinance my current mortgage"
+        },
+        {
+          "text": "why should i refinance my mortgage"
+        },
+        {
+          "text": "will i be able to refinance my existing fha loan"
+        }
+      ],
+      "description": "Request information about how to refinance a mortgage."
+    },
+    {
+      "intent": "Mortgage_What_Acceptable_Sources_Income",
+      "examples": [
+        {
+          "text": "what are acceptable sources of income if i'm employed"
+        },
+        {
+          "text": "what are acceptable sources of income if i'm in the military"
+        },
+        {
+          "text": "what are acceptable sources of income if i'm retired"
+        },
+        {
+          "text": "what are acceptable sources of income if i'm self-employed"
+        },
+        {
+          "text": "what are the different acceptable sources of income"
+        }
+      ],
+      "description": "Request information on the acceptable sources of income for a mortgage."
+    },
+    {
+      "intent": "Mortgage_What_Costs_Involved",
+      "examples": [
+        {
+          "text": "what are the costs of getting a mortgage loan"
+        },
+        {
+          "text": "what are the costs of obtaining a heloc or second mortgage"
+        },
+        {
+          "text": "what costs are included in a mortgage"
+        },
+        {
+          "text": "what costs are involved in getting a mortgage"
+        },
+        {
+          "text": "what costs are involved in obtaining a mortgage"
+        }
+      ],
+      "description": "Ask what costs are involved in a mortgage."
+    },
+    {
+      "intent": "Mortgage_What_Included_Monthly",
+      "examples": [
+        {
+          "text": "what costs are included in my monthly mortgage payment"
+        },
+        {
+          "text": "what does a monthly mortgage payment consist of"
+        },
+        {
+          "text": "what is included in a monthly mortgage payment"
+        },
+        {
+          "text": "what is included in my monthly mortgage payment"
+        },
+        {
+          "text": "what is included in my monthly mortgage payment with pefcu"
+        }
+      ],
+      "description": "Ask what is included in monthly mortgage payments."
+    },
+    {
+      "intent": "Mortgage_What_Need_Apply_Mortgage",
+      "examples": [
+        {
+          "text": "what documents do i need to apply for a mortgage"
+        },
+        {
+          "text": "what documents will i need to apply for a mortgage"
+        },
+        {
+          "text": "what information do i need to be able to apply for a mortgage"
+        },
+        {
+          "text": "what information will i need to apply for a mortgage"
+        },
+        {
+          "text": "when i apply for a mortgage what do I need"
+        }
+      ],
+      "description": "Request information on what is needed when applying for a mortgage."
+    },
+    {
+      "intent": "test",
+      "examples": [
+        {
+          "text": "I want to test this node"
+        },
+        {
+          "text": "test cloud functions"
+        },
+        {
+          "text": "test node"
+        },
+        {
+          "text": "test webhook"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity": "CheckingStatus",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "0_to_200",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "greater_200",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "less_0",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "no_checking",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "CreditHistory",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "all_credits_paid_back",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "credits_paid_to_date",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "outstanding_credit",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "prior_payments_delayed",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Elgibility_Result",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "No",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Yes",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "EmploymentDuration",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "1_to_4",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "4_to_7",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "greater_7",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "less_1",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "unemployed",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "ExistingSavings",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "100_to_500",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "500_to_1000",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "greater_1000",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "less_100",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "unknown",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "ForeignWorker",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "no",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "housing",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "free housing",
+          "synonyms": [
+            "free"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "own house",
+          "synonyms": [
+            "own"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "rent house",
+          "synonyms": [
+            "rent"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Rural",
+          "synonyms": [
+            "rural"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Urban",
+          "synonyms": [
+            "urban"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "InstallmentPlans",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "bank",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "none",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "rent",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Job",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Management",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Skilled",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Unskilled",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "loan_purpose",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "appliances",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "business",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "education",
+          "synonyms": [
+            "college",
+            "school",
+            "tution",
+            "university"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "furniture",
+          "synonyms": [
+            "bedroom",
+            "couch",
+            "dining room",
+            "house furniture",
+            "living room"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "new car",
+          "synonyms": [
+            "car_new"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "other",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "radio_tv",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "repairs",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "retraining",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "used car",
+          "synonyms": [
+            "car_used"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "vacation",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "loan_types",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Car Loan",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Debt Consolidation Loan",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Personal Loan",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "OthersOnLoan",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "coapplicant",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "guarantor",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "no coapplicant",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "none",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "OwnsProperty",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "car_other",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "real estate",
+          "synonyms": [
+            "real_estate"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "savings insurance",
+          "synonyms": [
+            "savings_insurance"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "unknown",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sex",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Female",
+          "synonyms": [
+            "female"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Male",
+          "synonyms": [
+            "male"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-currency",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-number",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-percentage",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-time",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Telephone",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "none",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "yes",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "webhooks": [
+    {
+      "url": "https://us-south.functions.appdomain.cloud/api/v1/web/fe5baa85-7ad0-4122-b6f3-1ce872ad3c4b/default/Demo.json",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_1_1602754972002",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "How many dependents do you have?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_8_1607258651520",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1607258651520",
+      "previous_sibling": "handler_9_1607258651520"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "Do you own any property?",
+            "options": [
+              {
+                "label": "savings_insurance",
+                "value": {
+                  "input": {
+                    "text": "savings_insurance"
+                  }
+                }
+              },
+              {
+                "label": "real_estate",
+                "value": {
+                  "input": {
+                    "text": "real_estate"
+                  }
+                }
+              },
+              {
+                "label": "unknown",
+                "value": {
+                  "input": {
+                    "text": "unknown"
+                  }
+                }
+              },
+              {
+                "label": "car_other",
+                "value": {
+                  "input": {
+                    "text": "car_other"
+                  }
+                }
+              },
+              {
+                "label": "",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_3_1627992804772",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1627992804774",
+      "previous_sibling": "handler_7_1627992804774"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1627993064675",
+      "context": {
+        "housing": "@housing"
+      },
+      "conditions": "@housing",
+      "event_name": "input",
+      "dialog_node": "handler_10_1627993064677"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1602761554944",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1602761554997",
+      "previous_sibling": "handler_6_1602761554997"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1626252876904",
+      "context": {
+        "CurrentResidenceDuration": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_1_1626252876905"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1627992877650",
+      "context": {
+        "Age": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_1_1627992877651"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_11_1607258651520",
+      "context": {
+        "loan_purpose": "@loan_purpose"
+      },
+      "conditions": "@loan_purpose",
+      "event_name": "input",
+      "dialog_node": "handler_12_1607258651520"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "what is the purpose of your loan?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_11_1607258651520",
+      "event_name": "focus",
+      "dialog_node": "handler_13_1607258651520",
+      "previous_sibling": "handler_12_1607258651520"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_14_1607258651520",
+      "context": {
+        "others_loan": "@others_loan"
+      },
+      "conditions": "@others_loan",
+      "event_name": "input",
+      "dialog_node": "handler_15_1607258651520"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "Do you have a..",
+            "options": [
+              {
+                "label": "Co-applicant",
+                "value": {
+                  "input": {
+                    "text": "coapplicant"
+                  }
+                }
+              },
+              {
+                "label": "Guarantor",
+                "value": {
+                  "input": {
+                    "text": "guarantor"
+                  }
+                }
+              },
+              {
+                "label": "None",
+                "value": {
+                  "input": {
+                    "text": "no coapplicant"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_14_1607258651520",
+      "event_name": "focus",
+      "dialog_node": "handler_16_1607258651520",
+      "previous_sibling": "handler_15_1607258651520"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_17_1607258651520",
+      "context": {
+        "housing": "@housing"
+      },
+      "conditions": "@housing",
+      "event_name": "input",
+      "dialog_node": "handler_18_1607258651520"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "Do you own/rent house?",
+            "options": [
+              {
+                "label": "I own my house",
+                "value": {
+                  "input": {
+                    "text": "own"
+                  }
+                }
+              },
+              {
+                "label": "I rent my house",
+                "value": {
+                  "input": {
+                    "text": "rent"
+                  }
+                }
+              },
+              {
+                "label": "I live for free",
+                "value": {
+                  "input": {
+                    "text": "free"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_17_1607258651520",
+      "event_name": "focus",
+      "dialog_node": "handler_19_1607258651520",
+      "previous_sibling": "handler_18_1607258651520"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_20_1607258651520",
+      "context": {
+        "property": "@property"
+      },
+      "conditions": "@property",
+      "event_name": "input",
+      "dialog_node": "handler_21_1607258651520"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "Do you have an installment plan?",
+            "options": [
+              {
+                "label": "None",
+                "value": {
+                  "input": {
+                    "text": "none"
+                  }
+                }
+              },
+              {
+                "label": "Stores",
+                "value": {
+                  "input": {
+                    "text": "stores"
+                  }
+                }
+              },
+              {
+                "label": "Bank",
+                "value": {
+                  "input": {
+                    "text": "bank"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_2_1627992917313",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1627992917315",
+      "previous_sibling": "handler_9_1627992917315"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "Do you own property?",
+            "options": [
+              {
+                "label": "Real estate",
+                "value": {
+                  "input": {
+                    "text": "real_estate"
+                  }
+                }
+              },
+              {
+                "label": "Car",
+                "value": {
+                  "input": {
+                    "text": "car_other"
+                  }
+                }
+              },
+              {
+                "label": "Savings Insurance",
+                "value": {
+                  "input": {
+                    "text": "savings_insurance"
+                  }
+                }
+              },
+              {
+                "label": "Others/unknown",
+                "value": {
+                  "input": {
+                    "text": "unknown"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_20_1607258651520",
+      "event_name": "focus",
+      "dialog_node": "handler_22_1607258651520",
+      "previous_sibling": "handler_21_1607258651520"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1607258651520",
+      "context": {
+        "months": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_3_1607258651520"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Do you have any dependents?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_4_1627993315782",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1627993315784",
+      "previous_sibling": "handler_4_1627993315784"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1627993409758",
+      "context": {
+        "Telephone": "@Telephone"
+      },
+      "conditions": "@Telephone",
+      "event_name": "input",
+      "dialog_node": "handler_3_1627993409760"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_38_1626252692892",
+      "context": {
+        "LoanDuration": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_39_1626252692892"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "What is the amount of loan you want?"
+          ],
+          "selection_policy": "sequential"
+        },
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What is the amount of duration you want for the loan?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_38_1626252692892",
+      "event_name": "focus",
+      "dialog_node": "handler_40_1626252692892",
+      "previous_sibling": "handler_39_1626252692892"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "What is the duration you want to apply for? (in months)"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_2_1607258651520",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1607258651520",
+      "previous_sibling": "handler_3_1607258651520"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1627993124081",
+      "context": {
+        "ExistingCreditsCount": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_4_1627993124084"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "Please select the type of your job.",
+            "options": [
+              {
+                "label": "Skilled",
+                "value": {
+                  "input": {
+                    "text": "skilled"
+                  }
+                }
+              },
+              {
+                "label": "Unskilled",
+                "value": {
+                  "input": {
+                    "text": "unskilled"
+                  }
+                }
+              },
+              {
+                "label": "Management",
+                "value": {
+                  "input": {
+                    "text": "management"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_7_1627993179953",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1627993179954",
+      "previous_sibling": "handler_7_1627993179954"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1627993315782",
+      "context": {
+        "Dependents": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_4_1627993315784"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_44_1626252692892",
+      "context": {
+        "CheckingStatus": "@CheckingStatus"
+      },
+      "conditions": "@CheckingStatus",
+      "event_name": "input",
+      "dialog_node": "handler_45_1626252692892"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "Please select one of the following status",
+            "options": [
+              {
+                "label": "0_to_200",
+                "value": {
+                  "input": {
+                    "text": "0_to_200"
+                  }
+                }
+              },
+              {
+                "label": "less_0",
+                "value": {
+                  "input": {
+                    "text": "less_0"
+                  }
+                }
+              },
+              {
+                "label": "no_checking",
+                "value": {
+                  "input": {
+                    "text": "no_checking"
+                  }
+                }
+              },
+              {
+                "label": "greater_200",
+                "value": {
+                  "input": {
+                    "text": "greater_200"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_44_1626252692892",
+      "event_name": "focus",
+      "dialog_node": "handler_46_1626252692892",
+      "previous_sibling": "handler_45_1626252692892"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_50_1626252692892",
+      "context": {
+        "CreditHistory": "@CreditHistory"
+      },
+      "conditions": "@CreditHistory",
+      "event_name": "input",
+      "dialog_node": "handler_51_1626252692892"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "How long have you stayed at your current residence?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_7_1626252876904",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1626252876905",
+      "previous_sibling": "handler_1_1626252876905"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1626252989976",
+      "context": {
+        "OthersOnLoan": "@OthersOnLoan"
+      },
+      "conditions": "@OthersOnLoan",
+      "event_name": "input",
+      "dialog_node": "handler_5_1626252989976"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1627993355106",
+      "context": {
+        "ForeignWorker": "@ForeignWorker"
+      },
+      "conditions": "@ForeignWorker",
+      "event_name": "input",
+      "dialog_node": "handler_5_1627993355109"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "Are you married?"
+          ],
+          "selection_policy": "sequential"
+        },
+        "generic": [
+          {
+            "title": "What is your credit history?",
+            "options": [
+              {
+                "label": "credits_paid_to_date",
+                "value": {
+                  "input": {
+                    "text": "credits_paid_to_date"
+                  }
+                }
+              },
+              {
+                "label": "prior_payments_delayed",
+                "value": {
+                  "input": {
+                    "text": "prior_payments_delayed"
+                  }
+                }
+              },
+              {
+                "label": "outstanding_credit",
+                "value": {
+                  "input": {
+                    "text": "outstanding_credit"
+                  }
+                }
+              },
+              {
+                "label": "all_credits_paid_back",
+                "value": {
+                  "input": {
+                    "text": "all_credits_paid_back"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_50_1626252692892",
+      "event_name": "focus",
+      "dialog_node": "handler_52_1626252692892",
+      "previous_sibling": "handler_51_1626252692892"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_53_1626252692892",
+      "context": {
+        "LoanPurpose": "@loan_purpose"
+      },
+      "conditions": "@loan_purpose",
+      "event_name": "input",
+      "dialog_node": "handler_54_1626252692892"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "How many dependents do you have?"
+          ],
+          "selection_policy": "sequential"
+        },
+        "generic": [
+          {
+            "title": "What is the purpose of your loan?",
+            "options": [
+              {
+                "label": "other",
+                "value": {
+                  "input": {
+                    "text": "other"
+                  }
+                }
+              },
+              {
+                "label": "car_new",
+                "value": {
+                  "input": {
+                    "text": "car_new"
+                  }
+                }
+              },
+              {
+                "label": "furniture",
+                "value": {
+                  "input": {
+                    "text": "furniture"
+                  }
+                }
+              },
+              {
+                "label": "retraining",
+                "value": {
+                  "input": {
+                    "text": "retraining"
+                  }
+                }
+              },
+              {
+                "label": "education",
+                "value": {
+                  "input": {
+                    "text": "education"
+                  }
+                }
+              },
+              {
+                "label": "car_used",
+                "value": {
+                  "input": {
+                    "text": "car_used"
+                  }
+                }
+              },
+              {
+                "label": "appliances",
+                "value": {
+                  "input": {
+                    "text": "appliances"
+                  }
+                }
+              },
+              {
+                "label": "repairs",
+                "value": {
+                  "input": {
+                    "text": "repairs"
+                  }
+                }
+              },
+              {
+                "label": "radio_tv",
+                "value": {
+                  "input": {
+                    "text": "radio_tv"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_53_1626252692892",
+      "event_name": "focus",
+      "dialog_node": "handler_55_1626252692892",
+      "previous_sibling": "handler_54_1626252692892"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_59_1626252692892",
+      "context": {
+        "LoanAmount": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_60_1626252692892"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "What is your Income?"
+          ],
+          "selection_policy": "sequential"
+        },
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What is the loan amount you are applying for?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_59_1626252692892",
+      "event_name": "focus",
+      "dialog_node": "handler_61_1626252692892",
+      "previous_sibling": "handler_60_1626252692892"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_9_1602761554944",
+      "event_name": "input",
+      "dialog_node": "handler_6_1602761554997"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1607258651520",
+      "context": {
+        "employment_duration": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_6_1607258651520"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "Any others on loan with you?",
+            "options": [
+              {
+                "label": "None",
+                "value": {
+                  "input": {
+                    "text": "none"
+                  }
+                }
+              },
+              {
+                "label": "Co-applicant",
+                "value": {
+                  "input": {
+                    "text": "Co-applicant"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_3_1626252989976",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1626252989976",
+      "previous_sibling": "handler_5_1626252989976"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "What is your status on your house?",
+            "options": [
+              {
+                "label": "Own",
+                "value": {
+                  "input": {
+                    "text": "own"
+                  }
+                }
+              },
+              {
+                "label": "free",
+                "value": {
+                  "input": {
+                    "text": "free"
+                  }
+                }
+              },
+              {
+                "label": "Rent",
+                "value": {
+                  "input": {
+                    "text": "rent"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_9_1627993064675",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1627993064677",
+      "previous_sibling": "handler_10_1627993064677"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_62_1626252692892",
+      "context": {
+        "InstallmentPercent": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_63_1626252692892"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "What is your coapplicant income?"
+          ],
+          "selection_policy": "sequential"
+        },
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What is the installment percent? Please choose a value from 1 to 6."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_62_1626252692892",
+      "event_name": "focus",
+      "dialog_node": "handler_64_1626252692892",
+      "previous_sibling": "handler_63_1626252692892"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_65_1626252692892",
+      "context": {
+        "ExistingSaving": "@ExistingSavings"
+      },
+      "conditions": "@ExistingSavings",
+      "event_name": "input",
+      "dialog_node": "handler_66_1626252692892"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "How much savings do you have currently?",
+            "options": [
+              {
+                "label": "less_100",
+                "value": {
+                  "input": {
+                    "text": "less_100"
+                  }
+                }
+              },
+              {
+                "label": "100_to_500",
+                "value": {
+                  "input": {
+                    "text": "100_to_500"
+                  }
+                }
+              },
+              {
+                "label": "500_to_1000",
+                "value": {
+                  "input": {
+                    "text": "500_to_1000"
+                  }
+                }
+              },
+              {
+                "label": "greater_1000",
+                "value": {
+                  "input": {
+                    "text": "greater_1000"
+                  }
+                }
+              },
+              {
+                "label": "unknown",
+                "value": {
+                  "input": {
+                    "text": "unknown"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_65_1626252692892",
+      "event_name": "focus",
+      "dialog_node": "handler_67_1626252692892",
+      "previous_sibling": "handler_66_1626252692892"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "How long have you been employed?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_5_1607258651520",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1607258651520",
+      "previous_sibling": "handler_6_1607258651520"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "How long have you been employed?",
+            "options": [
+              {
+                "label": "less_1",
+                "value": {
+                  "input": {
+                    "text": "less_1"
+                  }
+                }
+              },
+              {
+                "label": "1_to_4",
+                "value": {
+                  "input": {
+                    "text": "1_to_4"
+                  }
+                }
+              },
+              {
+                "label": "4_to_7",
+                "value": {
+                  "input": {
+                    "text": "4_to_7"
+                  }
+                }
+              },
+              {
+                "label": "greater_7",
+                "value": {
+                  "input": {
+                    "text": "greater_7"
+                  }
+                }
+              },
+              {
+                "label": "unemployed",
+                "value": {
+                  "input": {
+                    "text": "unemployed"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_8_1626252762720",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1626252762721",
+      "previous_sibling": "handler_8_1626252762721"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1627992804772",
+      "context": {
+        "OwnsProperty": "@OwnsProperty"
+      },
+      "conditions": "@OwnsProperty",
+      "event_name": "input",
+      "dialog_node": "handler_7_1627992804774"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1627993179953",
+      "context": {
+        "Job": "@Job"
+      },
+      "conditions": "@Job",
+      "event_name": "input",
+      "dialog_node": "handler_7_1627993179954"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1626252762720",
+      "context": {
+        "EmploymentDuration": "@EmploymentDuration"
+      },
+      "conditions": "@EmploymentDuration",
+      "event_name": "input",
+      "dialog_node": "handler_8_1626252762721"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1626252954485",
+      "context": {
+        "sex": "@sex"
+      },
+      "conditions": "@sex",
+      "event_name": "input",
+      "dialog_node": "handler_8_1626252954486"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "What is your age?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_2_1627992877650",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1627992877651",
+      "previous_sibling": "handler_1_1627992877651"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Please enter a value of your existing credits count, choose 1 or 2."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_6_1627993124081",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1627993124084",
+      "previous_sibling": "handler_4_1627993124084"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Telephone",
+            "options": [
+              {
+                "label": "None",
+                "value": {
+                  "input": {
+                    "text": "none"
+                  }
+                }
+              },
+              {
+                "label": "Yes",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_5_1627993409758",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1627993409761",
+      "previous_sibling": "handler_3_1627993409760"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1607258651520",
+      "context": {
+        "dependents": "@sys-number"
+      },
+      "conditions": "@sys-number",
+      "event_name": "input",
+      "dialog_node": "handler_9_1607258651520"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "Gender",
+            "options": [
+              {
+                "label": "Male",
+                "value": {
+                  "input": {
+                    "text": "male"
+                  }
+                }
+              },
+              {
+                "label": "Female",
+                "value": {
+                  "input": {
+                    "text": "female"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_8_1626252954485",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1626252954486",
+      "previous_sibling": "handler_8_1626252954486"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1627992917313",
+      "context": {
+        "InstallmentPlans": "@InstallmentPlans"
+      },
+      "conditions": "@InstallmentPlans",
+      "event_name": "input",
+      "dialog_node": "handler_9_1627992917315"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "Are you a foreign worker?",
+            "options": [
+              {
+                "label": "yes",
+                "value": {
+                  "input": {
+                    "text": "yes"
+                  }
+                }
+              },
+              {
+                "label": "no",
+                "value": {
+                  "input": {
+                    "text": "no"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_5_1627993355106",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1627993355109",
+      "previous_sibling": "handler_5_1627993355109"
+    },
+    {
+      "type": "standard",
+      "title": "Expat",
+      "parent": "node_7_1602756393843",
+      "dialog_node": "node_10_1602757296865"
+    },
+    {
+      "type": "standard",
+      "title": "Personal Loan",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You can apply for personal loans of up to AED 2 million with tenor up to 48 months and Interest rates as low as 3.99% per year."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1604320751304",
+      "conditions": "@loan_types:(Personal Loan) || #Loan_types",
+      "dialog_node": "node_10_1602758775352",
+      "previous_sibling": "node_8_1602758779444"
+    },
+    {
+      "type": "folder",
+      "title": "Loan",
+      "conditions": "true",
+      "dialog_node": "node_1_1602754972002",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Loan_requirements - Car",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "To apply for a car loan, you need the following documents:\n- Vehicle quotation\n- UAE driving license\n- Bank statements (where applicable)\n- Salary certificate addressed to FAB (where applicable)\n- Auto-loan application completed and signed by the customer\n- Copy of a valid passport/resident visa/Emirates ID (originals must also be presented)\n\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1602758779444",
+      "conditions": "#Loan_requirement && @loan_types:(Car Loan)",
+      "dialog_node": "node_1_1602760022573"
+    },
+    {
+      "type": "frame",
+      "title": "Loan Eligibility - copy1",
+      "output": {},
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "housing": "$housing",
+            "duration": "$months",
+            "property": "$property",
+            "dependents": "$dependents",
+            "others_loan": "$others_loan",
+            "loan_purpose": "$loan_purpose",
+            "employment_duration": "$employment_duration"
+          },
+          "result_variable": "webhook_result_1"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Loan_question",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1607258651518",
+      "previous_sibling": "Anything else"
+    },
+    {
+      "type": "standard",
+      "title": "Loan_requirements - Debt",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "To apply for a Debt Consolidation loan, you need the following documents:\n- Liability letter\n- Salary transfer letter\n- Bank statement (six months)\n- Application completed and signed by the customer\n- Copy of a valid passport/Emirates ID (originals must also be presented)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1602758780044",
+      "conditions": "#Loan_requirement",
+      "dialog_node": "node_2_1602760030416"
+    },
+    {
+      "type": "standard",
+      "title": "Yes I want to see which loans I can apply for",
+      "parent": "node_6_1603792624626",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "type": "loan calc"
+          },
+          "result_variable": "webhook_result_2"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#calculate_loan",
+      "dialog_node": "node_3_1603792759252"
+    },
+    {
+      "type": "frame",
+      "title": "Loan Eligibility",
+      "output": {},
+      "parent": "node_1_1602754972002",
+      "actions": [
+        {
+          "name": "main_webhook",
+          "type": "webhook",
+          "parameters": {
+            "Age": "$Age",
+            "Job": "$Job",
+            "Sex": "$Sex",
+            "Housing": "$Housing",
+            "Telephone": "$Telephone",
+            "Dependents": "$Dependents",
+            "LoanAmount": "$LoanAmount",
+            "LoanPurpose": "$LoanPurpose",
+            "LoanDuration": "$LoanDuration",
+            "OthersOnLoan": "$OthersOnLoan",
+            "OwnsProperty": "$OwnsProperty",
+            "CreditHistory": "$CreditHistory",
+            "ForeignWorker": "$ForeignWorker",
+            "CheckingStatus": "$CheckingStatus",
+            "ExistingSavings": "$ExistingSavings",
+            "InstallmentPlans": "$InstallmentPlans",
+            "EmploymentDuration": "$EmploymentDuration",
+            "InstallmentPercent": "$InstallmentPercent",
+            "ExistingCreditsCount": "$ExistingCreditsCount",
+            "CurrentResidenceDuration": "$CurrentResidenceDuration"
+          },
+          "result_variable": "webhook_result_1"
+        }
+      ],
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#Loan_question",
+      "dialog_node": "node_37_1626252692891"
+    },
+    {
+      "type": "standard",
+      "title": "Loan_requirements - Personal",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "To apply for a personal loan, you need the following documents:\n- Copy of a valid passport/Emirates ID (originals must also be presented)\n- Bank statements for the last three months showing salary credits (if salary  is not credited to example bank account)\n- Salary transfer letter/salary certificate addressed to example bank \n- Liability letter or a clearance letter (in case of buyout loans)\n- Application completed and signed by the customer\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1602758775352",
+      "conditions": "#Loan_requirement && @loan_types:(Personal Loan)",
+      "dialog_node": "node_6_1602756403756"
+    },
+    {
+      "type": "standard",
+      "title": "Result Yes",
+      "output": {
+        "generic": [
+          {
+            "title": "Woud you like to",
+            "options": [
+              {
+                "label": "Connect to an agent",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              },
+              {
+                "label": "Apply now",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              },
+              {
+                "label": "Get details about the required documents to apply for loan",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          },
+          {
+            "values": [
+              {
+                "text": "Would you like to "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1602754972002",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "$webhook_result_1==\"Yes\"",
+      "dialog_node": "node_6_1603792475317",
+      "previous_sibling": "node_37_1626252692891"
+    },
+    {
+      "type": "standard",
+      "title": "Result No",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Would you like to find the amount/type of loan that you might be able to apply for?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1602754972002",
+      "conditions": "$webhook_result_1==\"No\"",
+      "dialog_node": "node_6_1603792624626",
+      "previous_sibling": "node_6_1603792475317"
+    },
+    {
+      "type": "standard",
+      "title": "Loan_howto",
+      "parent": "node_9_1604320751304",
+      "conditions": "#Loan_howto",
+      "dialog_node": "node_7_1602756393843",
+      "previous_sibling": "node_8_1602761344587"
+    },
+    {
+      "type": "standard",
+      "title": "National",
+      "parent": "node_7_1602756393843",
+      "dialog_node": "node_8_1602757301385",
+      "previous_sibling": "node_10_1602757296865"
+    },
+    {
+      "type": "standard",
+      "title": "Car Loans",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You can apply for car loans for new or used cars of up to AED 1.5 million or 80% of the car value with interest rates starting at 2.35% per year."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1604320751304",
+      "conditions": "@loan_types:(Car Loan) || #Loan_types",
+      "dialog_node": "node_8_1602758779444",
+      "previous_sibling": "node_8_1602758780044"
+    },
+    {
+      "type": "standard",
+      "title": "Debt Consolidation Loan",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You can apply for debt consolidation loans for flexible repayment terms of up to 144 months with variable and competitive interest rates available."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1604320751304",
+      "conditions": "@loan_types:(Debt Consolidation Loan) || #Loan_types",
+      "dialog_node": "node_8_1602758780044"
+    },
+    {
+      "type": "frame",
+      "title": "Loan Types",
+      "output": {
+        "generic": [
+          {
+            "title": "",
+            "options": [],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_9_1604320751304",
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#Loan_types",
+      "dialog_node": "node_8_1602761344587",
+      "previous_sibling": "node_10_1602758775352"
+    },
+    {
+      "type": "standard",
+      "parent": "node_6_1603792475317",
+      "dialog_node": "node_8_1603792762075"
+    },
+    {
+      "type": "standard",
+      "title": "No I don't want to calculate loans",
+      "parent": "node_6_1603792624626",
+      "dialog_node": "node_9_1603792771693",
+      "previous_sibling": "node_3_1603792759252"
+    },
+    {
+      "type": "folder",
+      "title": "Loan FAQ",
+      "parent": "node_1_1602754972002",
+      "dialog_node": "node_9_1604320751304",
+      "previous_sibling": "node_6_1603792624626"
+    },
+    {
+      "type": "standard",
+      "title": "Loan Recommendation",
+      "parent": "node_1_1602754972002",
+      "dialog_node": "node_9_1604320874221",
+      "previous_sibling": "node_9_1604320751304"
+    },
+    {
+      "type": "response_condition",
+      "parent": "node_3_1603792759252",
+      "conditions": "anything_else",
+      "dialog_node": "response_10_1607276476361",
+      "previous_sibling": "response_3_1607276473778"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$webhook_result_1.message"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1607258651518",
+      "conditions": "$webhook_result_1",
+      "dialog_node": "response_23_1607258651520"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_1_1607258651518",
+      "conditions": "anything_else",
+      "dialog_node": "response_24_1607258651520",
+      "previous_sibling": "response_23_1607258651520"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$webhook_result_2.message"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1603792759252",
+      "conditions": "$webhook_result_2",
+      "dialog_node": "response_3_1607276473778"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": []
+      },
+      "parent": "node_8_1602761344587",
+      "disabled": true,
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_10_1602758775352"
+      },
+      "conditions": "@loan_types:(Personal Loan)",
+      "dialog_node": "response_5_1602761378559",
+      "previous_sibling": "slot_9_1602761554944"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You are eligible for a loan"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1603792475317",
+      "disabled": true,
+      "conditions": "$Yes",
+      "dialog_node": "response_5_1603792545175",
+      "previous_sibling": "node_8_1603792762075"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1602761344587",
+      "disabled": true,
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_8_1602758780044"
+      },
+      "conditions": "@loan_types:(Car Loan)",
+      "dialog_node": "response_6_1602761398048",
+      "previous_sibling": "response_9_1602761390904"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "$webhook_result_1.message"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_37_1626252692891",
+      "conditions": "$webhook_result_1",
+      "dialog_node": "response_71_1626252692892"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "You are not eligible for a loan"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1603792475317",
+      "disabled": true,
+      "conditions": "$No",
+      "dialog_node": "response_7_1603792558260",
+      "previous_sibling": "response_5_1603792545175"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "Sorry, something seems to have went wrong, please try again."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_37_1626252692891",
+      "conditions": "anything_else",
+      "dialog_node": "response_72_1626252692892",
+      "previous_sibling": "response_71_1626252692892"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1602761344587",
+      "disabled": true,
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_8_1602758780044"
+      },
+      "conditions": "@loan_types:(Debt Consolidation Loan)",
+      "dialog_node": "response_9_1602761390904",
+      "previous_sibling": "response_5_1602761378559"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1607258651518",
+      "variable": "$loan_purpose",
+      "dialog_node": "slot_11_1607258651520",
+      "previous_sibling": "slot_8_1607258651520"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1607258651518",
+      "variable": "$others_loan",
+      "dialog_node": "slot_14_1607258651520",
+      "previous_sibling": "slot_11_1607258651520"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1607258651518",
+      "variable": "$housing",
+      "dialog_node": "slot_17_1607258651520",
+      "previous_sibling": "slot_14_1607258651520"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1607258651518",
+      "variable": "$property",
+      "dialog_node": "slot_20_1607258651520",
+      "previous_sibling": "slot_17_1607258651520"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1607258651518",
+      "variable": "$months",
+      "dialog_node": "slot_2_1607258651520",
+      "previous_sibling": "response_24_1607258651520"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_37_1626252692891",
+      "variable": "$Age",
+      "dialog_node": "slot_2_1627992877650",
+      "previous_sibling": "slot_3_1627992804772"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_37_1626252692891",
+      "variable": "$InstallmentPlans",
+      "dialog_node": "slot_2_1627992917313",
+      "previous_sibling": "slot_2_1627992877650"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_37_1626252692891",
+      "variable": "$OthersOnLoan",
+      "dialog_node": "slot_3_1626252989976",
+      "previous_sibling": "slot_8_1626252954485"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_37_1626252692891",
+      "variable": "$OwnsProperty",
+      "dialog_node": "slot_3_1627992804772",
+      "previous_sibling": "slot_3_1626252989976"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_37_1626252692891",
+      "variable": "$LoanDuration",
+      "dialog_node": "slot_38_1626252692892",
+      "previous_sibling": "slot_44_1626252692892"
+    },
+    {
+      "type": "slot",
+      "parent": "node_37_1626252692891",
+      "variable": "$Dependents",
+      "dialog_node": "slot_4_1627993315782",
+      "previous_sibling": "slot_7_1627993179953"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_37_1626252692891",
+      "variable": "$CheckingStatus",
+      "dialog_node": "slot_44_1626252692892",
+      "previous_sibling": "response_72_1626252692892"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_37_1626252692891",
+      "variable": "$CreditHistory",
+      "dialog_node": "slot_50_1626252692892",
+      "previous_sibling": "slot_38_1626252692892"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1607258651518",
+      "variable": "$employment_duration",
+      "dialog_node": "slot_5_1607258651520",
+      "previous_sibling": "slot_2_1607258651520"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_37_1626252692891",
+      "variable": "$ForeignWorker",
+      "dialog_node": "slot_5_1627993355106",
+      "previous_sibling": "slot_4_1627993315782"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_37_1626252692891",
+      "variable": "$Telephone",
+      "dialog_node": "slot_5_1627993409758",
+      "previous_sibling": "slot_5_1627993355106"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_37_1626252692891",
+      "variable": "$LoanPurpose",
+      "dialog_node": "slot_53_1626252692892",
+      "previous_sibling": "slot_50_1626252692892"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_37_1626252692891",
+      "variable": "$LoanAmount",
+      "dialog_node": "slot_59_1626252692892",
+      "previous_sibling": "slot_53_1626252692892"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_37_1626252692891",
+      "variable": "$ExistingCreditsCount",
+      "dialog_node": "slot_6_1627993124081",
+      "previous_sibling": "slot_9_1627993064675"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_37_1626252692891",
+      "variable": "$InstallmentPercent",
+      "dialog_node": "slot_62_1626252692892",
+      "previous_sibling": "slot_59_1626252692892"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_37_1626252692891",
+      "variable": "$ExistingSaving",
+      "dialog_node": "slot_65_1626252692892",
+      "previous_sibling": "slot_62_1626252692892"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_37_1626252692891",
+      "variable": "$CurrentResidenceDuration",
+      "dialog_node": "slot_7_1626252876904",
+      "previous_sibling": "slot_8_1626252762720"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_37_1626252692891",
+      "variable": "$Job",
+      "dialog_node": "slot_7_1627993179953",
+      "previous_sibling": "slot_6_1627993124081"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_1_1607258651518",
+      "variable": "$dependents",
+      "dialog_node": "slot_8_1607258651520",
+      "previous_sibling": "slot_5_1607258651520"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_37_1626252692891",
+      "variable": "$EmploymentDuration",
+      "dialog_node": "slot_8_1626252762720",
+      "previous_sibling": "slot_65_1626252692892"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_37_1626252692891",
+      "variable": "$sex",
+      "dialog_node": "slot_8_1626252954485",
+      "previous_sibling": "slot_7_1626252876904"
+    },
+    {
+      "type": "slot",
+      "parent": "node_8_1602761344587",
+      "dialog_node": "slot_9_1602761554944"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_37_1626252692891",
+      "variable": "$housing",
+      "dialog_node": "slot_9_1627993064675",
+      "previous_sibling": "slot_2_1627992917313"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi, I'm Alex! Your Loan Application companion."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "time": 3000,
+            "typing": true,
+            "response_type": "pause"
+          },
+          {
+            "values": [
+              {
+                "text": "You can check for loan eligibility, recommended loan, and any information you would like to ask about our loans."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [
+    {
+      "text": "Graduate"
+    }
+  ],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "My first skill",
+  "language": "en",
+  "description": ""
+}
