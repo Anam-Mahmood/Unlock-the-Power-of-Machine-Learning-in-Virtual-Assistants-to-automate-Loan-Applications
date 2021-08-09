@@ -129,9 +129,9 @@ image actions
 6.	Once the action is created you will need to add an API KEY under the "Parameters" tab that we created in Step 2.
 7.	Under the "Code" tab, paste the below code.
 
-'# main() will be run when you invoke this action'
-'# @param Cloud Functions actions accept a single parameter, which must be a JSON object.'
-'# @return The output of this action, which must be a JSON object.'
+`# main() will be run when you invoke this action
+# @param Cloud Functions actions accept a single parameter, which must be a JSON object.
+# @return The output of this action, which must be a JSON object.
 
 import sys
 import json
@@ -222,9 +222,9 @@ def main(dic):
     final = ('Your application is presenting a ' + predict + ' application with a risk probability of: %.0f%%'% yes_percent)
     print("final: ", final)
     return { 'message': final }
-    '
+    `
 8. In the below line, replace the link with your machine learning deployment link that you copied from Step 1.2.12:
- 'response_scoring = requests.post('https://us-south.ml.cloud.ibm.com/ml/v4/deployments/e7a8d7c5-5f14-49ab-b236-bd3326dcbabb/predictions?version=2021-08-05', json=payload_scoring, headers={'Authorization': 'Bearer ' + mltoken})'
+ `response_scoring = requests.post('https://us-south.ml.cloud.ibm.com/ml/v4/deployments/e7a8d7c5-5f14-49ab-b236-bd3326dcbabb/predictions?version=2021-08-05', json=payload_scoring, headers={'Authorization': 'Bearer ' + mltoken})`
 
 8.	Lastly under the "Endpoints" tab, check the "Enable as web action" and copy the public URL.
 9.	In the code above, for testing you can replace the values in json section with any value from the dataset and invoke the function to get an output.
