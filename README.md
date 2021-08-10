@@ -1,5 +1,12 @@
 # CP4D Banking Demo
 
+## Description
+
+Within a bank’s loan department, a customer’s application undergoes a lot of scrutiny before a decision of approval or rejection is made. The evaluation process can take a while, which opens the possibility of the bank losing a potential customer. To reduce the decision-making time and to increase the accuracy of the decisions being made, we can now use machine learning solutions. This allows customer representative to make predictions about a loan application quickly. 
+Now a days businesses also use chatbots to increase productivity and provide a better customer experience. 
+This demo aims to automate the banking experience for customers regarding loan applications using Watson Studio machine learning, Cloud function, and then extend the Watson Assistant chatbot’s capabilities by connecting it to WhatsApp using Twilio. We will be using Twilio’s sandbox to show how this integration works.
+
+
 ## Step 1. Create Watson Studio service 
 
 video 1
