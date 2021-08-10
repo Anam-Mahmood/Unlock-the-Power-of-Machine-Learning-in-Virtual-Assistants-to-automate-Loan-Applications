@@ -140,7 +140,7 @@ import requests
 def main(dic):
     // NOTE: you must manually set API_KEY below using information retrieved from your IBM Cloud account.
     API_KEY = dic["api_key"]
-    token_response = requests.post('https://iam.cloud.ibm.com/identity/token', data={"apikey": API_KEY, "grant_type": 'urn:ibm:params:oauth:grant-type:apikey'})
+    token_response = requests.post('', data={"apikey": API_KEY, "grant_type": 'urn:ibm:params:oauth:grant-type:apikey'})
     mltoken = token_response.json()["access_token"]
     
     header = {'Content-Type': 'application/json', 'Authorization': 'Bearer ' + mltoken}
