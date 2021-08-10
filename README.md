@@ -103,6 +103,7 @@ video 3
 11.	Once the deployment is completed, click on the name your deployment.
 
 12.	On this page you find the API references, endpoint and code snippets to help you integrate your model with your applications. Copy the endpoint of your model and save it as we will need it later.
+![deployment-link](https://github.com/Anam-Mahmood/CP4D-Banking-Demo/blob/main/images/deployment%20link.png?raw=true)
 
 13.	To test your model, click on the “Test” tab. You can select a row from the data set and enter the data in the fields. Enter the values from the dataset, and then click on the “ Add to Predict” button at the bottom and then on "Predict".
 
@@ -111,8 +112,12 @@ video 3
 ## Step 2. Create API KEY
 
 1. Click on manage next to your account name and in the drop down list choose “Access (Iam)”.
+![AccessIAM](https://github.com/Anam-Mahmood/CP4D-Banking-Demo/blob/main/images/parameters%201.png?raw=true)
+
 2.	Click on API keys on the right side.
-3.	Click on "Create" and give a name to the Api Key. Copy and save the API Key as you will not be able to see it again. You can also download the API KEY.
+3.	Click on "Create" and give a name to the Api Key. Copy and save the API Key as you will not be able to see it again. You can also download the API KEY.	
+![createApiKey](https://github.com/Anam-Mahmood/CP4D-Banking-Demo/blob/main/images/paramerters%202.png?raw=true)
+
 
 
 ## Step 3. IBM cloud functions
@@ -120,13 +125,15 @@ video 3
 1.	Within your IBM Cloud account, click on the top search bar to search for cloud services and offerings. Type in “Functions” and then click on Functions under “Catalog Results”.
 2.	Click on get started.
 3.	Click on Current namespace and create a namespace.
-image namespace
+![namespace](https://github.com/Anam-Mahmood/CP4D-Banking-Demo/blob/main/images/namespace.png?raw=true)
 
 4.	Under "Action" tab click on "Create" and then "Action"
 5.	Give the action a name, choose the “Default package, and a runtime of your choice, in our case we are using "Python 3.7".
-image actions
+![action](https://github.com/Anam-Mahmood/CP4D-Banking-Demo/blob/main/images/create%20action.png?raw=true)
 
-6.	Once the action is created you will need to add an API KEY under the "Parameters" tab that we created in Step 2.
+6.	Once the action is created you will need to add an API KEY under the "Parameters" tab that we created in Step 2 and click on "Save".
+![Add-api-key](https://github.com/Anam-Mahmood/CP4D-Banking-Demo/blob/main/images/parameters%203.png?raw=true)
+
 7.	Under the "Code" tab, paste the below code.
 
 ```python
@@ -232,7 +239,7 @@ def main(dic):
 8.	Lastly under the "Endpoints" tab, check the "Enable as web action" and copy the public URL.
 9.	In the code above, for testing you can replace the values in json section with any value from the dataset and invoke the function to get an output.
 
-image invoke functions
+![Invoke Functions](https://github.com/Anam-Mahmood/CP4D-Banking-Demo/blob/main/images/invoke%20functions.png?raw=true)
 
 ---
 
@@ -240,13 +247,20 @@ image invoke functions
 
 1. Within your IBM Cloud account, click on the top search bar to search for cloud services and offerings. Type in “Watson Assistant” and then click on Watson Assistant under “Catalog Results”.
 2. This takes you to the Watson Studio service page. Select a region (make sure all your services are in the same region), “Lite” plan (Free) and give your service a unique name. Click on “Create” and this creates a Watson Assistant instance for you.
+![Create-Assistant](https://github.com/Anam-Mahmood/CP4D-Banking-Demo/blob/main/images/create%20assistant.png?raw=true)
+
 3. Once the service instance is ready, you will be redirected to the Watson Assistant page. Click on the “Launch Assistant” button to launch Watson Assistant in a new tab. This might take few minutes to set up the service.
 4. Click on "Assistants" and then "Create" assistant.
-6.	Give your assistant a name and click "Create" assistant.
-7.	Once your Assistant is created, click on "add an action or dialog skill" and then click on "Upload Skill".
+6.Give your assistant a name and click "Create" assistant.
+7.Once your Assistant is created, click on "add an action or dialog skill".
+![Add-dialog-skill](https://github.com/Anam-Mahmood/CP4D-Banking-Demo/blob/main/images/add%20dialog%20skill.png?raw=true)
+
+8. Click on "Upload Skill".
+![Upload-Skill](https://github.com/Anam-Mahmood/CP4D-Banking-Demo/blob/main/images/upload%20skill.png?raw=true)
 
 Your machine learning model is now connected to your Watson Assistant. You can click on "preview" and test it out!
 
+![Preview-Assistant](https://github.com/Anam-Mahmood/CP4D-Banking-Demo/blob/main/images/preview%20assistant.png?raw=true)
 
 
 
