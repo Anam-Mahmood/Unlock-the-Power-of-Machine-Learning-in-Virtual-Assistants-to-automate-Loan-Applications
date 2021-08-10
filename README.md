@@ -129,7 +129,8 @@ image actions
 6.	Once the action is created you will need to add an API KEY under the "Parameters" tab that we created in Step 2.
 7.	Under the "Code" tab, paste the below code.
 
-`// main() will be run when you invoke this action 
+`
+// main() will be run when you invoke this action 
 // @param Cloud Functions actions accept a single parameter, which must be a JSON object.
 // @return The output of this action, which must be a JSON object.
 
@@ -140,7 +141,7 @@ import requests
 def main(dic):
     // NOTE: you must manually set API_KEY below using information retrieved from your IBM Cloud account.
     API_KEY = dic["api_key"]
-    token_response = requests.post('', data={"apikey": API_KEY, "grant_type": 'urn:ibm:params:oauth:grant-type:apikey'})
+    token_response = requests.post(, data={"apikey": API_KEY, "grant_type": 'urn:ibm:params:oauth:grant-type:apikey'})
     mltoken = token_response.json()["access_token"]
     
     header = {'Content-Type': 'application/json', 'Authorization': 'Bearer ' + mltoken}
