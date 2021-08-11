@@ -24,7 +24,8 @@ There are 3 steps to create your account on IBM Cloud:
 
 ## Step 1. Create Watson Studio service 
 
-video 1
+![e-gif](https://github.com/Anam-Mahmood/Unlock-the-Power-of-Machine-Learning-in-Virtual-Assistants-to-automate-Loan-Applications/blob/main/images/ezgif.com-video-to-gif-2.gif?raw=true)
+![new](https://github.com/Anam-Mahmood/Unlock-the-Power-of-Machine-Learning-in-Virtual-Assistants-to-automate-Loan-Applications/blob/main/images/f039d36f18a074440e84b040912b8ddaaf4da4b5.gif?raw=true)
 
 1.	Login to your IBM Cloud account: 
  
