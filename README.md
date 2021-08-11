@@ -6,6 +6,21 @@ Within a bank’s loan department, a customer’s application undergoes a lot of
 Now a days businesses also use chatbots to increase productivity and provide a better customer experience. 
 This demo aims to automate the banking experience for customers regarding loan applications using Watson Studio machine learning, Cloud function, and then extend the Watson Assistant chatbot’s capabilities by connecting it to WhatsApp using Twilio. We will be using Twilio’s sandbox to show how this integration works.
 
+## Prerequisites
+- [IBM Cloud Account](http://ibm.biz/BdfyVx)
+- [Twilio Account](www.twilio.com/referral/jO1067)
+
+**Sign-up/Login to IBM Cloud**
+There are 3 steps to create your account on IBM Cloud:
+1. Put your email and password.
+2. You get a verification link with the registered email to verify your account.
+3. Fill the personal information fields.
+
+![SignuptoIBMCloud](https://user-images.githubusercontent.com/15332386/120156441-0769d980-c203-11eb-8cb3-29f4a8d5616a.png)
+
+## Architecture Diagram
+<img width="744" alt="Screen Shot 2021-08-11 at 11 12 04 AM" src="https://user-images.githubusercontent.com/12492961/128992438-c93c6987-e06a-4225-81c1-6ee370a1622d.png">
+
 
 ## Step 1. Create Watson Studio service 
 
@@ -274,13 +289,6 @@ Your machine learning model is now connected to your Watson Assistant. You can c
 ## Step 5. Integrating IBM Watson Assistant with WhatsApp
 
 Chatbots are everywhere these days, and most businesses aim to use them to increase productivity and provide a better customer experience. In this tutorial, we will demonstrate how to extend a Watson Assistant chatbot's capabilities by connecting it to WhatsApp using Twilio. We will be using Twilio's sandbox to show how this integration works.
-
-**Prerequisites**
-- [IBM Cloud Account](http://ibm.biz/BdfyVx)
-- [Twilio Account](www.twilio.com/referral/jO1067)
-
-## Architecture Diagram
-<img width="451" alt="Architecture_Diagram" src="https://user-images.githubusercontent.com/12492961/123856997-ce707200-d932-11eb-87be-65f91f0375bd.png">
 
 In this step, we will be focusing on the integrating Watson Assistant with WhatsApp. 
 
