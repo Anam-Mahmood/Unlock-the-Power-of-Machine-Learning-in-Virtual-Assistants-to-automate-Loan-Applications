@@ -1,4 +1,4 @@
-# CP4D Banking Demo
+# Unlock the Power of Machine Learning in Virtual Assistants to automate Loan Applications
 
 ## Description
 
