@@ -24,7 +24,7 @@ There are 3 steps to create your account on IBM Cloud:
 
 ## Step 1. Create Watson Studio service 
 
-![new](https://github.com/Anam-Mahmood/Unlock-the-Power-of-Machine-Learning-in-Virtual-Assistants-to-automate-Loan-Applications/blob/main/images/f039d36f18a074440e84b040912b8ddaaf4da4b5.gif?raw=true)
+![gif 1](https://github.com/Anam-Mahmood/Unlock-the-Power-of-Machine-Learning-in-Virtual-Assistants-to-automate-Loan-Applications/blob/main/images/gif%201.gif?raw=true)
 
 1.	Login to your IBM Cloud account: 
  
@@ -36,6 +36,8 @@ There are 3 steps to create your account on IBM Cloud:
 
 5.	Under the heading “work with data” you will find a link that says, “Create a project”. Click on “Create a project”. Next, click on “Create an empty project”.
 
+![gif 2](https://github.com/Anam-Mahmood/Unlock-the-Power-of-Machine-Learning-in-Virtual-Assistants-to-automate-Loan-Applications/blob/main/images/gif%202.gif?raw=true)
+
 6.	On the new project page, give your project a name. You will also need to associate an IBM Cloud Object Storage instance to store the data set.
 
 7.	Under “Select Storage Service”, click on the “Add” button. This takes you to the IBM Cloud Object Store service page. Leave the service on the “Lite” tier and then click the “Create” button at the bottom of the page. You are prompted to name the service and choose the resource group. Once you give a name, click “Create”.
@@ -46,13 +48,13 @@ There are 3 steps to create your account on IBM Cloud:
 
 10.	Click on the “Add to project” button on the top right corner. From the pop-up window select “Data”.
 
-11.	In the column, on the right, click on “browse”. Navigate to the folder where you downloaded the data set to and select “insurance.csv”
+11.	In the column, on the right, click on “browse”. Navigate to the folder where you downloaded the data set to and select “german_credit.csv”
 
 12.	Watson Studio takes a couple of seconds to load the data, and then you should see the import has completed. To make sure it has worked properly, you can click on “Assets” on the top of the page, and you should see your insurance file under “Data Assets”.
 
 ## Step 1.1: Create and Run AutoAI experiment
 
-video 2.1
+![gif 3](https://github.com/Anam-Mahmood/Unlock-the-Power-of-Machine-Learning-in-Virtual-Assistants-to-automate-Loan-Applications/blob/main/images/gif%203.gif?raw=true)
 
 1.	Once you have added the data set, click on the “Add to project” button on the top right corner. This time select “AutoAI experiment”.
 
@@ -68,6 +70,8 @@ video 2.1
 
 7.	Once the service is successfully associated, you will be redirected to new AutoAI experiment page. Click on “Reload” on the right side of the screen. You should see your newly created machine learning instance. Click on “Create” on the bottom right part of your screen to create your first AutoAI experiment!
 
+![gif 4](https://github.com/Anam-Mahmood/Unlock-the-Power-of-Machine-Learning-in-Virtual-Assistants-to-automate-Loan-Applications/blob/main/images/gif%204.gif?raw=true)
+
 8.	After you create your experiment, you are taken to a page to add a data source to your project. Click on “Select from project” and then add the insurance.csv file. Click on Select asset to confirm your data source.
 
 9.	Next, you see that AutoAI processes your data, and you see a What do you want to predict section. Select the expenses as the Prediction column.
@@ -80,7 +84,7 @@ video 2.1
 
 13.	Once you are happy with your settings, ensure you are predicting for the expense’s column, and click on the run Run Experiment button on the bottom-right corner of the screen.
 
-video 2.2
+![gif 5](https://github.com/Anam-Mahmood/Unlock-the-Power-of-Machine-Learning-in-Virtual-Assistants-to-automate-Loan-Applications/blob/main/images/gif%205.gif?raw=true)
 
 14.	Next, your AutoAI experiment runs on its own. You see a progress map on the right side of the screen which shows which stage of the experiment is running. This may be Hyper Parameter Optimization, feature engineering, or some other stage.
 
@@ -100,7 +104,7 @@ video 2.2
 
 ## Step 1.2. Create a deployment and test your model
 
-video 3
+![gif 6](https://github.com/Anam-Mahmood/Unlock-the-Power-of-Machine-Learning-in-Virtual-Assistants-to-automate-Loan-Applications/blob/main/images/gif%206.gif?raw=true)
 
 1.	Once you are ready to deploy one of the models, click on “Save As” at the top-right corner of the model you want to deploy. Save it as a “Model” and name your model as you want. Click on “Create”.
 
@@ -115,6 +119,8 @@ video 3
 6.	Once the space is ready, click on “Close” in the pop-up and you will be redirected to the promote to space page. You see your newly created space under the “Target space”. Once you’re happy with your selections, click on “Promote”.
 
 7.	Once the model is successfully promoted, you will see a green notification box, click on “deployment space” in the notification. Alternatively, you can also find your deployment spaces when you click on the hamburger sign on the top left most side on your screen.
+
+![gif 7](https://github.com/Anam-Mahmood/Unlock-the-Power-of-Machine-Learning-in-Virtual-Assistants-to-automate-Loan-Applications/blob/main/images/gif%207.gif?raw=true)
 
 8.	You will be redirected to the deployments page, where you will find your promoted model. Hover over the row, to see a rocket shaped icon, click on the icon to deploy you model.
 
@@ -281,6 +287,8 @@ def main(dic):
 ![Upload-Skill](https://github.com/Anam-Mahmood/CP4D-Banking-Demo/blob/main/images/upload%20skill.png?raw=true)
 
 Your machine learning model is now connected to your Watson Assistant. You can click on "preview" and test it out!
+
+![assistant](https://github.com/Anam-Mahmood/Unlock-the-Power-of-Machine-Learning-in-Virtual-Assistants-to-automate-Loan-Applications/blob/main/images/assitant.gif?raw=true)
 
 ![Preview-Assistant](https://github.com/Anam-Mahmood/CP4D-Banking-Demo/blob/main/images/preview%20assistant.png?raw=true)
 
