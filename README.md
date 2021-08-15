@@ -301,33 +301,33 @@ Chatbots are everywhere these days, and most businesses aim to use them to incre
 In this step, we will be focusing on the integrating Watson Assistant with WhatsApp. 
 
 1. Under Integrations on the right side, choose WhatsApp with Twilio. <br/>
-![1](https://user-images.githubusercontent.com/12492961/118401100-6103cd00-b675-11eb-85cb-01b1f059781b.png)
+![1](https://user-images.githubusercontent.com/12492961/129473010-a606c9d3-7be8-438e-9cd9-18bdb8184761.png)
 
 2. Choose WhatsApp with Twilio and then click Create. <br/>
-![2](https://user-images.githubusercontent.com/12492961/118401118-7547ca00-b675-11eb-8469-32cec99e733e.png)
+![2](https://user-images.githubusercontent.com/12492961/129473017-43185803-26c4-420d-be9d-237c6759394d.png)
 
 3. Now here we will need to set the Account SID and Auth token that we can get from Twilio. Go to your Twilio account (if you don't an account, you can create one [here](www.twilio.com/referral/jO1067)) and copy your Account SID and Auth token that are in the home dashboard. (Click on Show to reveal the token). <br/>
-![3](https://user-images.githubusercontent.com/12492961/118401162-93adc580-b675-11eb-97e3-28cea6ccab3e.png)
+![3](https://user-images.githubusercontent.com/12492961/129473038-7c4f0aa7-40a5-4fca-84c2-a5ea5eaf830e.png)
 
 4. Go back to your Watson Assistant and fill Account SID and Auth token with the values that you got from Twilio. <br/>
-![4](https://user-images.githubusercontent.com/12492961/118401166-9e685a80-b675-11eb-9334-d10b02f1b230.png)
+![4](https://user-images.githubusercontent.com/12492961/129473036-c1990e5c-bbc5-4191-834f-374e8a752bb6.png)
 <br/> Click Sync Account and wait for it till it shows Synced. Once it's synced you will see a webhook URL generated in the WhatsApp Webhook field. Copy this URL and go back to Twilio. <br/>
 
 5.	Now we need to set up and configure our Twilio sandbox to integrate it with Watson Assistant. In your Twilio Account, click on the icon that represents all products and services (it's below the home icon) on the left side go to Programmable Messaging from the expanded menu and select Try WhatsApp under the Try it out section. <br/>
-![5](https://user-images.githubusercontent.com/12492961/118401202-c061dd00-b675-11eb-9472-8367940d716e.png)
+![5](https://user-images.githubusercontent.com/12492961/129473035-46be850a-c392-446a-ad73-41c033b69af2.png)
 <br/> We will be using this testing sandbox for our integration. Send the given code/message to the number provided by Twilio from your WhatsApp. <br/>
 ![5a](https://user-images.githubusercontent.com/12492961/118401223-e4bdb980-b675-11eb-885c-c0d8c71e7ba2.jpg)
 <br/> Click [here](https://api.whatsapp.com/send?phone=+1(415)523-8886&text=join%20design-thumb) to send the message to given number or Scan this QR Code. <br/>
 ![WA](https://user-images.githubusercontent.com/12492961/118401683-a2957780-b677-11eb-88aa-93adb2b79271.png)
 <br/> Once it's done, you should see Message Received on Twilio like this image. <br/>
-![5b](https://user-images.githubusercontent.com/12492961/118401243-fb641080-b675-11eb-927f-43188c4efbe2.png)
+![5b](https://user-images.githubusercontent.com/12492961/129473031-634099af-b17b-4696-8e26-86c36d4fe21e.png)
 <br/> This means that now your phone number is connected to this Twilio-WhatsApp sandbox. <br/>
 
 6.	Click Next. The second step is to set a template in case you're working with a One-Way Message case like appointment reminders, order notification and verification codes. So, in these cases, only the service is talking to the user. We are not interested in this step for this tutorial so you can click Next to move to the 3rd step which is Two-Way Messaging where both the user and the service can send messages which results in a conversation. The service triggers a 24-hour conversation window in which the conversation can take place. Send a reply to the message that you received on WhatsApp and click Next: Configure Your Sandbox. <br/>
-![6](https://user-images.githubusercontent.com/12492961/118401293-3108f980-b676-11eb-808f-8aac814be54b.png)
+![6](https://user-images.githubusercontent.com/12492961/129473029-4fc7947f-6aab-4d1e-858c-0e974bc4ef00.png)
 
 7.	Paste the webhook URL that you have from Watson Assistant into the When a message comes in field. You should see your number in the sandbox participants and others can enter this sandbox by sending the code mentioned to the sandbox WhatsApp number (In the below image the code is join design-thumb). Once you're done click save. <br/>
-![7](https://user-images.githubusercontent.com/12492961/118401309-44b46000-b676-11eb-9c2b-e4ae7c990e74.png)
+![7](https://user-images.githubusercontent.com/12492961/129473023-57d35a4e-5c48-4fef-84f9-c0eda80a2296.png)
 
 8.	All is set. Now the Assistant is integrated with WhatsApp through Twilio. From your device, send a WhatsApp message to the WhatsApp sandbox number and you will receive the assistant's response. <br/>
 ![8](https://user-images.githubusercontent.com/12492961/118401334-572e9980-b676-11eb-93eb-d9e6dfc8e119.jpg)
