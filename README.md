@@ -336,8 +336,12 @@ In this tutorial, you were able to successfully integrate your Watson Assistant 
 
 
 
+## Contributors
 
-
+- [Anam Mahmood](https://www.linkedin.com/in/anam-mahmood-sheikh/)
+- [Khalil Faraj](https://www.linkedin.com/in/khalilfaraj/)
+- [Masa Abushamleh](https://www.linkedin.com/in/masa-abushamleh/)
+- [Mridul Bhandari]https://www.linkedin.com/in/mridul-bhandari/)
 
 
 
