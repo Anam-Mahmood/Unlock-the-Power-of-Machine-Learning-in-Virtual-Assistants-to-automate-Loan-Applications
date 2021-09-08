@@ -165,16 +165,20 @@ There are 3 steps to create your account on IBM Cloud:
 7.	Under the "Code" tab, paste the below code.
 
 ```python
-# main() will be run when you invoke this action 
+
+# main() will be run when you invoke this action
+#
 # @param Cloud Functions actions accept a single parameter, which must be a JSON object.
+#
 # @return The output of this action, which must be a JSON object.
+#
 
 import sys
 import json
 import requests
 
 def main(dic):
-    // NOTE: you must manually set API_KEY below using information retrieved from your IBM Cloud account.
+    # NOTE: you must manually set API_KEY below using information retrieved from your IBM Cloud account.
     API_KEY = dic["api_key"]
     token_response = requests.post('https://iam.cloud.ibm.com/identity/token', data={"apikey": API_KEY, "grant_type": 'urn:ibm:params:oauth:grant-type:apikey'})
     mltoken = token_response.json()["access_token"]
@@ -186,15 +190,12 @@ def main(dic):
 	"input_data": [
 		{
 			"fields": [
-				"CheckingStatus",
 				"LoanDuration",
-				"CreditHistory",
 				"LoanPurpose",
 				"LoanAmount",
 				"ExistingSavings",
 				"EmploymentDuration",
 				"InstallmentPercent",
-				"Sex",
 				"OthersOnLoan",
 				"CurrentResidenceDuration",
 				"OwnsProperty",
@@ -202,22 +203,16 @@ def main(dic):
 				"InstallmentPlans",
 				"Housing",
 				"ExistingCreditsCount",
-				"Job",
-				"Dependents",
-				"Telephone",
-				"ForeignWorker"
+				"Job"
 			],
 			"values": [
 				[
-					dic["CheckingStatus"],
 					dic["LoanDuration"],
-					dic["CreditHistory"],
 					dic["LoanPurpose"],
 					dic["LoanAmount"],
 					dic["ExistingSavings"],
 					dic["EmploymentDuration"],
 					dic["InstallmentPercent"],
-					dic["Sex"],
 					dic["OthersOnLoan"],
 					dic["CurrentResidenceDuration"],
 					dic["OwnsProperty"],
@@ -225,17 +220,14 @@ def main(dic):
 					dic["InstallmentPlans"],
 					dic["Housing"],
 					dic["ExistingCreditsCount"],
-					dic["Job"],
-					dic["Dependents"],
-					dic["Telephone"],
-					dic["ForeignWorker"]
+					dic["Job"]
 
 				]
 			]
 		}
 	]
 }
-    response_scoring = requests.post('https://us-south.ml.cloud.ibm.com/ml/v4/deployments/e7a8d7c5-5f14-49ab-b236-bd3326dcbabb/predictions?version=2021-08-05', json=payload_scoring, headers={'Authorization': 'Bearer ' + mltoken})
+    response_scoring = requests.post('https://us-south.ml.cloud.ibm.com/ml/v4/deployments/c804b737-c614-4b05-b902-9cec49f4a119/predictions?version=2021-09-07', json=payload_scoring, headers={'Authorization': 'Bearer ' + mltoken})
     print("Scoring response")
     print(response_scoring.json())
     result = response_scoring.text
@@ -258,6 +250,7 @@ def main(dic):
     final = ('Your application is presenting a ' + predict + ' application with a risk probability of: %.0f%%'% yes_percent)
     print("final: ", final)
     return { 'message': final }
+    
   ```
   
 8. In the below line, replace the link with your machine learning deployment link that you copied from Step 1.2.12:
