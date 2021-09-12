@@ -175,6 +175,7 @@ There are 3 steps to create your account on IBM Cloud:
 2.	Click on get started.
 
 3.	Click on Current namespace and create a namespace.
+
 ![namespace](https://github.com/Anam-Mahmood/CP4D-Banking-Demo/blob/main/images/namespace.png?raw=true)
 
 4.	Under "Action" tab click on "Create" and then "Action"
