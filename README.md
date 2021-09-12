@@ -149,6 +149,7 @@ There are 3 steps to create your account on IBM Cloud:
 11.	Once the deployment is completed, click on the name your deployment.
 
 12.	On this page you find the API references, endpoint and code snippets to help you integrate your model with your applications. Copy the endpoint of your model and save it as we will need it later.
+
 ![deployment-link](https://github.com/Anam-Mahmood/CP4D-Banking-Demo/blob/main/images/deployment%20link.png?raw=true)
 
 13.	To test your model, click on the “Test” tab. You can select a row from the data set and enter the data in the fields. Enter the values from the dataset, and then click on the “ Add to Predict” button at the bottom and then on "Predict".
@@ -158,11 +159,13 @@ There are 3 steps to create your account on IBM Cloud:
 ## Step 2. Create API Key
 
 1. Click on manage next to your account name and in the drop down list choose “Access (IAM)”.
+
 ![AccessIAM](https://github.com/Anam-Mahmood/CP4D-Banking-Demo/blob/main/images/parameters%201.png?raw=true)
 
 2.	Click on API keys on the right side.
 
 3.	Click on "Create" and give a name to the Api Key. Copy and save the API Key as you will not be able to see it again. You can also download the API KEY.	
+
 ![createApiKey](https://github.com/Anam-Mahmood/CP4D-Banking-Demo/blob/main/images/paramerters%202.png?raw=true)
 
 ## Step 3. IBM cloud functions
@@ -177,9 +180,11 @@ There are 3 steps to create your account on IBM Cloud:
 4.	Under "Action" tab click on "Create" and then "Action"
 
 5.	Give the action a name, choose the “Default package, and a runtime of your choice, in our case we are using "Python 3.7".
+
 ![action](https://github.com/Anam-Mahmood/CP4D-Banking-Demo/blob/main/images/create%20action.png?raw=true)
 
 6.	Once the action is created you will need to add an API KEY under the "Parameters" tab that we created in Step 2 and click on "Save".
+
 ![Add-api-key](https://github.com/Anam-Mahmood/CP4D-Banking-Demo/blob/main/images/parameters%203.png?raw=true)
 
 7.	Under the "Code" tab, paste the below code.
@@ -299,9 +304,11 @@ def main(dic):
 5.Give your assistant a name and click "Create" assistant.
 
 6.Once your Assistant is created, click on "add an action or dialog skill".
+
 ![Add-dialog-skill](https://github.com/Anam-Mahmood/CP4D-Banking-Demo/blob/main/images/add%20dialog%20skill.png?raw=true)
 
 7. Click on "Upload Skill".
+
 ![Upload-Skill](https://github.com/Anam-Mahmood/CP4D-Banking-Demo/blob/main/images/upload%20skill.png?raw=true)
 
 Your machine learning model is now connected to your Watson Assistant. You can click on "preview" and test it out!
@@ -317,20 +324,25 @@ Chatbots are everywhere these days, and most businesses aim to use them to incre
 In this step, we will be focusing on the integrating Watson Assistant with WhatsApp. 
 
 1. Under Integrations on the right side, choose WhatsApp with Twilio.
+
 ![1](https://user-images.githubusercontent.com/12492961/129473010-a606c9d3-7be8-438e-9cd9-18bdb8184761.png)
 
 2. Choose WhatsApp with Twilio and then click Create. 
+
 ![2](https://user-images.githubusercontent.com/12492961/129473017-43185803-26c4-420d-be9d-237c6759394d.png)
 
 3. Now here we will need to set the Account SID and Auth token that we can get from Twilio. Go to your Twilio account (if you don't an account, you can create one [here](www.twilio.com/referral/jO1067)) and copy your Account SID and Auth token that are in the home dashboard. (Click on Show to reveal the token). 
+
 ![3](https://user-images.githubusercontent.com/12492961/129473038-7c4f0aa7-40a5-4fca-84c2-a5ea5eaf830e.png)
 
 4. Go back to your Watson Assistant and fill Account SID and Auth token with the values that you got from Twilio. 
+
 ![4](https://user-images.githubusercontent.com/12492961/129473036-c1990e5c-bbc5-4191-834f-374e8a752bb6.png)
 
 Click Sync Account and wait for it till it shows Synced. Once it's synced you will see a webhook URL generated in the WhatsApp Webhook field. Copy this URL and go back to Twilio.
 
 5.	Now we need to set up and configure our Twilio sandbox to integrate it with Watson Assistant. In your Twilio Account, click on the icon that represents all products and services (it's below the home icon) on the left side go to Programmable Messaging from the expanded menu and select Try WhatsApp under the Try it out section.
+
 ![5](https://user-images.githubusercontent.com/12492961/129473035-46be850a-c392-446a-ad73-41c033b69af2.png)
 
 We will be using this testing sandbox for our integration. Send the given code/message to the number provided by Twilio from your WhatsApp. 
@@ -342,6 +354,7 @@ Click [here](https://api.whatsapp.com/send?phone=+1(415)523-8886&text=join%20des
 ![WA](https://user-images.githubusercontent.com/12492961/118401683-a2957780-b677-11eb-88aa-93adb2b79271.png)
 
 Once it's done, you should see Message Received on Twilio like this image. 
+
 ![5b](https://user-images.githubusercontent.com/12492961/129473031-634099af-b17b-4696-8e26-86c36d4fe21e.png)
 
 This means that now your phone number is connected to this Twilio-WhatsApp sandbox. 
@@ -351,6 +364,7 @@ This means that now your phone number is connected to this Twilio-WhatsApp sandb
 ![6](https://user-images.githubusercontent.com/12492961/129473029-4fc7947f-6aab-4d1e-858c-0e974bc4ef00.png)
 
 7.	Paste the webhook URL that you have from Watson Assistant into the When a message comes in field. You should see your number in the sandbox participants and others can enter this sandbox by sending the code mentioned to the sandbox WhatsApp number (In the below image the code is join design-thumb). Once you're done click save.
+
 ![7](https://user-images.githubusercontent.com/12492961/129473023-57d35a4e-5c48-4fef-84f9-c0eda80a2296.png)
 
 8.	All is set. Now the Assistant is integrated with WhatsApp through Twilio. From your device, send a WhatsApp message to the WhatsApp sandbox number and you will receive the assistant's response. 
