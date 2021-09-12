@@ -90,7 +90,7 @@ There are 3 steps to create your account on IBM Cloud:
 
 ![gif 4](https://github.com/Anam-Mahmood/Unlock-the-Power-of-Machine-Learning-in-Virtual-Assistants-to-automate-Loan-Applications/blob/main/images/gif%204.gif?raw=true)
 
-8.	After you create your experiment, you are taken to a page to add a data source to your project. Click on “Select from project” and then add the insurance.csv file. Click on Select asset to confirm your data source.
+8.	After you create your experiment, you are taken to a page to add a data source to your project. Click on “Select from project” and then add the new_german_data.csv file. Click on Select asset to confirm your data source.
 
 9.	Next, you see that AutoAI processes your data, and you see a What do you want to predict section. Select the expenses as the Prediction column.
 
@@ -112,13 +112,13 @@ There are 3 steps to create your account on IBM Cloud:
 
 17.	Now the AutoAI has successfully generated eight different models.
 
-18.	In our case, you see the accuracy value is 0.775, from Pipeline 3. Click on “Pipeline 3”.
+18.	In our case, you see the accuracy value is 0.785, from Pipeline 8. Click on “Pipeline 8”.
 
 19.	On the left-hand side, you can see different “Model Evaluation Measures”. For this particular model, you can view the ROC curve.
 
-20.	On the left-hand side, you can also see “Feature Transformations”, and “Feature Importance”.
+20.	On the left-hand side, you can also see “Model Evaluation”, and “Feature Summary”.
 
-21.	On the left-hand side, click on “Feature Importance”. You can see here that the most important predictor of the loan eligibilty is the duration of your current residency. This is by far the most important feature, followed by others in loan and if you own a property.
+21.	On the left-hand side, click on “Feature Summary”. You can see here that the most important predictor of the loan eligibilty is the duration of the new feature created by AutoAI. This is by far the most important feature, followed by age and so on.
 
 ## Step 1.2. Create a deployment and test your model
 
