@@ -24,7 +24,7 @@ Now a days businesses also use chatbots to increase productivity and provide a b
 - [Integrate the Machine Learning Model with Watson Assistant](#Integrate-the-Machine-Learning-Model-with-Watson-Assistant)
 
 ## Prerequisites
-- [IBM Cloud Account](http://ibm.biz/BdfyVx)
+- [IBM Cloud Account](https://cloud.ibm.com/registration?utm_medium=Inpersondirected&utm_content=000039JL&utm_term=10010797&utm_id=Sep2021-unlockthepowerofmachinelearninginproductionforallskillsetsinahybridmulti-cloudworld-eventid-6106368814ed54d56fef33ef-global-devadvgrp-dubai-hybrid-conference-dubai)
 - [Twilio Account](www.twilio.com/referral/jO1067)
 
 **Sign-up/Login to IBM Cloud**
@@ -327,9 +327,11 @@ Click Sync Account and wait for it till it shows Synced. Once it's synced you wi
 ![5](https://user-images.githubusercontent.com/12492961/129473035-46be850a-c392-446a-ad73-41c033b69af2.png)
 
 We will be using this testing sandbox for our integration. Send the given code/message to the number provided by Twilio from your WhatsApp. 
+
 ![5a](https://user-images.githubusercontent.com/12492961/118401223-e4bdb980-b675-11eb-885c-c0d8c71e7ba2.jpg)
 
 Click [here](https://api.whatsapp.com/send?phone=+1(415)523-8886&text=join%20design-thumb) to send the message to given number or Scan this QR Code.
+
 ![WA](https://user-images.githubusercontent.com/12492961/118401683-a2957780-b677-11eb-88aa-93adb2b79271.png)
 
 Once it's done, you should see Message Received on Twilio like this image. 
