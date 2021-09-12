@@ -323,7 +323,7 @@ In this step, we will be focusing on the integrating Watson Assistant with Whats
 ![7](https://user-images.githubusercontent.com/12492961/129473023-57d35a4e-5c48-4fef-84f9-c0eda80a2296.png)
 
 8.	All is set. Now the Assistant is integrated with WhatsApp through Twilio. From your device, send a WhatsApp message to the WhatsApp sandbox number and you will receive the assistant's response. <br/>
-![8](https://user-images.githubusercontent.com/12492961/118401334-572e9980-b676-11eb-93eb-d9e6dfc8e119.jpg)
+![8](https://github.com/IBMDeveloperMEA/Artelligence2021/blob/main/images/whatsapp-solution-final.gif?raw=true)
 
 In this tutorial, you were able to successfully integrate your Watson Assistant with WhatsApp through Twilio. Since this is a tutorial, we were using WhatsApp-Twilio sandbox to show you how this integration work. If you want to use WhatsApp-Twilio with the Assistant for a real use case, then you will need to have a premium Twilio Account, a Facebook Business Manager ID and apply for permission. You can find more information about this [here](https://cloud.ibm.com/docs/assistant?topic=assistant-deploy-whatsapp).
 
