@@ -6,15 +6,15 @@ Within a bank’s loan department, a customer’s application undergoes a lot of
 
 Now a days businesses also use chatbots to increase productivity and provide a better customer experience. This demo aims to automate the banking experience for customers regarding loan applications using Watson Studio machine learning, Cloud function, and then extend the Watson Assistant chatbot’s capabilities by connecting it to WhatsApp using Twilio. We will be using Twilio’s sandbox to show how this integration works.
 
-## Workshop Resources
+## Masterclass Resources
 
-- Login/Sign Up for IBM Cloud: <Link>
+- Login/Sign Up for IBM Cloud: https://ibm.biz/artelligence2021
   
-- Hands-On Guide: <Link>
+- Hands-On Guide: https://ibm.biz/artelligence-handson
 
-- Slides: <Link>
+- Slides: https://ibm.biz/artelligence-slides
 
-- Workshop Replay: <Link>
+- Workshop Replay: https://artelligenceforum.com 
 
 ## Table of Contents
 - [Prerequisites](#Prerequisites)
@@ -155,25 +155,27 @@ There are 3 steps to create your account on IBM Cloud:
 
 ## Set Up IBM Cloud Functions
 
-## Step 2. Create API KEY
+## Step 2. Create API Key
 
-1. Click on manage next to your account name and in the drop down list choose “Access (Iam)”.
+1. Click on manage next to your account name and in the drop down list choose “Access (IAM)”.
 ![AccessIAM](https://github.com/Anam-Mahmood/CP4D-Banking-Demo/blob/main/images/parameters%201.png?raw=true)
 
 2.	Click on API keys on the right side.
+
 3.	Click on "Create" and give a name to the Api Key. Copy and save the API Key as you will not be able to see it again. You can also download the API KEY.	
 ![createApiKey](https://github.com/Anam-Mahmood/CP4D-Banking-Demo/blob/main/images/paramerters%202.png?raw=true)
-
-
 
 ## Step 3. IBM cloud functions
 
 1.	Within your IBM Cloud account, click on the top search bar to search for cloud services and offerings. Type in “Functions” and then click on Functions under “Catalog Results”.
+
 2.	Click on get started.
+
 3.	Click on Current namespace and create a namespace.
 ![namespace](https://github.com/Anam-Mahmood/CP4D-Banking-Demo/blob/main/images/namespace.png?raw=true)
 
 4.	Under "Action" tab click on "Create" and then "Action"
+
 5.	Give the action a name, choose the “Default package, and a runtime of your choice, in our case we are using "Python 3.7".
 ![action](https://github.com/Anam-Mahmood/CP4D-Banking-Demo/blob/main/images/create%20action.png?raw=true)
 
@@ -276,6 +278,7 @@ def main(dic):
  `response_scoring = requests.post('https://us-south.ml.cloud.ibm.com/ml/v4/deployments/e7a8d7c5-5f14-49ab-b236-bd3326dcbabb/predictions?version=2021-08-05', json=payload_scoring, headers={'Authorization': 'Bearer ' + mltoken})`
 
 8.	Lastly under the "Endpoints" tab, check the "Enable as web action" and copy the public URL.
+
 9.	In the code above, for testing you can replace the values in json section with any value from the dataset and invoke the function to get an output.
 
 ![Invoke Functions](https://github.com/Anam-Mahmood/CP4D-Banking-Demo/blob/main/images/invoke%20functions.png?raw=true)
@@ -285,23 +288,27 @@ def main(dic):
 ## Step 4. Watson Assistant
 
 1. Within your IBM Cloud account, click on the top search bar to search for cloud services and offerings. Type in “Watson Assistant” and then click on Watson Assistant under “Catalog Results”.
+
 2. This takes you to the Watson Studio service page. Select a region (make sure all your services are in the same region), “Lite” plan (Free) and give your service a unique name. Click on “Create” and this creates a Watson Assistant instance for you.
 ![Create-Assistant](https://github.com/Anam-Mahmood/CP4D-Banking-Demo/blob/main/images/create%20assistant.png?raw=true)
 
 3. Once the service instance is ready, you will be redirected to the Watson Assistant page. Click on the “Launch Assistant” button to launch Watson Assistant in a new tab. This might take few minutes to set up the service.
+
 4. Click on "Assistants" and then "Create" assistant.
-6.Give your assistant a name and click "Create" assistant.
-7.Once your Assistant is created, click on "add an action or dialog skill".
+
+5.Give your assistant a name and click "Create" assistant.
+
+6.Once your Assistant is created, click on "add an action or dialog skill".
 ![Add-dialog-skill](https://github.com/Anam-Mahmood/CP4D-Banking-Demo/blob/main/images/add%20dialog%20skill.png?raw=true)
 
-8. Click on "Upload Skill".
+7. Click on "Upload Skill".
 ![Upload-Skill](https://github.com/Anam-Mahmood/CP4D-Banking-Demo/blob/main/images/upload%20skill.png?raw=true)
 
 Your machine learning model is now connected to your Watson Assistant. You can click on "preview" and test it out!
 
-![assistant](https://github.com/Anam-Mahmood/Unlock-the-Power-of-Machine-Learning-in-Virtual-Assistants-to-automate-Loan-Applications/blob/main/images/assitant.gif?raw=true)
-
 ![Preview-Assistant](https://github.com/Anam-Mahmood/CP4D-Banking-Demo/blob/main/images/preview%20assistant.png?raw=true)
+
+<img width="300" alt="solution final gif" src="https://github.com/Anam-Mahmood/Unlock-the-Power-of-Machine-Learning-in-Virtual-Assistants-to-automate-Loan-Applications/blob/main/images/assitant.gif?raw=true">
 
 ## Step 5. Integrating IBM Watson Assistant with WhatsApp
 
@@ -348,17 +355,26 @@ This means that now your phone number is connected to this Twilio-WhatsApp sandb
 
 8.	All is set. Now the Assistant is integrated with WhatsApp through Twilio. From your device, send a WhatsApp message to the WhatsApp sandbox number and you will receive the assistant's response. 
 
-<img width="400" alt="Screen Shot 2021-08-11 at 11 12 04 AM" src="https://github.com/IBMDeveloperMEA/Artelligence2021/blob/main/images/whatsapp-solution-final.gif?raw=true">
+<p align="center"><img width="300" alt="solution final gif" src="https://github.com/IBMDeveloperMEA/Artelligence2021/blob/main/images/whatsapp-solution-final.gif?raw=true"></p>
 
 In this tutorial, you were able to successfully integrate your Watson Assistant with WhatsApp through Twilio. Since this is a tutorial, we were using WhatsApp-Twilio sandbox to show you how this integration work. If you want to use WhatsApp-Twilio with the Assistant for a real use case, then you will need to have a premium Twilio Account, a Facebook Business Manager ID and apply for permission. You can find more information about this [here](https://cloud.ibm.com/docs/assistant?topic=assistant-deploy-whatsapp).
 
 ## Workshop Speakers
 
-- Fawaz Siddiqi
-- Anam Mahmood
-- Khalil Faraj
+- [Fawaz Siddiqi](https://linktr.ee/thefaz)
+- [Anam Mahmood](https://www.linkedin.com/in/anam-mahmood-sheikh/)
+- [Khalil Faraj](https://www.linkedin.com/in/khalilfaraj/)
 
-## Workshop Resources
+## Masterclass Resources
+
+- Login/Sign Up for IBM Cloud: https://ibm.biz/artelligence2021
+  
+- Hands-On Guide: https://ibm.biz/artelligence-handson
+
+- Slides: https://ibm.biz/artelligence-slides
+
+- Workshop Replay: https://artelligenceforum.com 
+
 
 
 
