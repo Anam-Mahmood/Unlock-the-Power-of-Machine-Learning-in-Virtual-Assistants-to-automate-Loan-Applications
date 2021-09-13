@@ -88,7 +88,7 @@ There are 3 steps to create your account on IBM Cloud:
 
 7.	Once the service is successfully associated, you will be redirected to new AutoAI experiment page. Click on “Reload” on the right side of the screen. You should see your newly created machine learning instance. Click on “Create” on the bottom right part of your screen to create your first AutoAI experiment!
 
-![gif 4](https://github.com/Anam-Mahmood/Unlock-the-Power-of-Machine-Learning-in-Virtual-Assistants-to-automate-Loan-Applications/blob/main/images/gif%204.gif?raw=true)
+![gif 4](https://github.com/IBMDeveloperMEA/Artelligence2021/blob/main/images/new%20gif%204.gif?raw=true)
 
 8.	After you create your experiment, you are taken to a page to add a data source to your project. Click on “Select from project” and then add the new_german_data.csv file. Click on Select asset to confirm your data source.
 
@@ -102,7 +102,7 @@ There are 3 steps to create your account on IBM Cloud:
 
 13.	Once you are happy with your settings, ensure you are predicting for the expense’s column, and click on the run Run Experiment button on the bottom-right corner of the screen.
 
-![gif 5](https://github.com/Anam-Mahmood/Unlock-the-Power-of-Machine-Learning-in-Virtual-Assistants-to-automate-Loan-Applications/blob/main/images/gif%205.gif?raw=true)
+![gif 5](https://github.com/IBMDeveloperMEA/Artelligence2021/blob/main/images/new%20gif%205.gif?raw=true)
 
 14.	Next, your AutoAI experiment runs on its own. You see a progress map on the right side of the screen which shows which stage of the experiment is running. This may be Hyper Parameter Optimization, feature engineering, or some other stage.
 
@@ -122,7 +122,7 @@ There are 3 steps to create your account on IBM Cloud:
 
 ## Step 1.2. Create a deployment and test your model
 
-![gif 6](https://github.com/Anam-Mahmood/Unlock-the-Power-of-Machine-Learning-in-Virtual-Assistants-to-automate-Loan-Applications/blob/main/images/gif%206.gif?raw=true)
+![gif 6](https://github.com/IBMDeveloperMEA/Artelligence2021/blob/main/images/new%20gif%206.gif?raw=true)
 
 1.	Once you are ready to deploy one of the models, click on “Save As” at the top-right corner of the model you want to deploy. Save it as a “Model” and name your model as you want. Click on “Create”.
 
@@ -138,7 +138,7 @@ There are 3 steps to create your account on IBM Cloud:
 
 7.	Once the model is successfully promoted, you will see a green notification box, click on “deployment space” in the notification. Alternatively, you can also find your deployment spaces when you click on the hamburger sign on the top left most side on your screen.
 
-![gif 7](https://github.com/Anam-Mahmood/Unlock-the-Power-of-Machine-Learning-in-Virtual-Assistants-to-automate-Loan-Applications/blob/main/images/gif%207.gif?raw=true)
+![gif 7](https://github.com/IBMDeveloperMEA/Artelligence2021/blob/main/images/new%20gif%207.gif?raw=true)
 
 8.	You will be redirected to the deployments page, where you will find your promoted model. Hover over the row, to see a rocket shaped icon, click on the icon to deploy you model.
 
