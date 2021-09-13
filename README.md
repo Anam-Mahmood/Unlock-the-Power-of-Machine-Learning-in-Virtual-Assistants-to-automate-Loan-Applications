@@ -253,7 +253,7 @@ def main(dic):
 		}
 	]
 }
-    response_scoring = requests.post('https://us-south.ml.cloud.ibm.com/ml/v4/deployments/c804b737-c614-4b05-b902-9cec49f4a119/predictions?version=2021-09-07', json=payload_scoring, headers={'Authorization': 'Bearer ' + mltoken})
+    response_scoring = requests.post('Add your machine learning deployment URL', json=payload_scoring, headers={'Authorization': 'Bearer ' + mltoken})
     print("Scoring response")
     print(response_scoring.json())
     result = response_scoring.text
@@ -279,7 +279,7 @@ def main(dic):
     
   ```
   
-8. In the below line, replace the link with your machine learning deployment link that you copied from Step 1.2.12:
+8. In the below line, replace the link with your machine learning deployment link that you copied from Step 1.2.12, the final code should look like this:
 
  `response_scoring = requests.post('https://us-south.ml.cloud.ibm.com/ml/v4/deployments/e7a8d7c5-5f14-49ab-b236-bd3326dcbabb/predictions?version=2021-08-05', json=payload_scoring, headers={'Authorization': 'Bearer ' + mltoken})`
 
