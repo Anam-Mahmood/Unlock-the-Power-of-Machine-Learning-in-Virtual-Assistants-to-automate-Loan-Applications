@@ -44,7 +44,7 @@ There are 3 steps to create your account on IBM Cloud:
 
 ![gif 1](https://github.com/Anam-Mahmood/Unlock-the-Power-of-Machine-Learning-in-Virtual-Assistants-to-automate-Loan-Applications/blob/main/images/gif%201.gif?raw=true)
 
-1.	Login to your IBM Cloud account: 
+1.	Login to your IBM Cloud account.
  
 2.	Within your IBM Cloud account, click on the top search bar to search for cloud services and offerings. Type in “Watson Studio” and then click on Watson Studio under “Catalog Results”.
 
