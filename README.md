@@ -287,7 +287,7 @@ def main(dic):
 
 9.	In the code above, for testing you can replace the values in json section with any value from the dataset and invoke the function to get an output.
 
-![Invoke Functions](https://github.com/Anam-Mahmood/CP4D-Banking-Demo/blob/main/images/invoke%20functions.png?raw=true)
+![Invoke Functions](https://github.com/IBMDeveloperMEA/Artelligence2021/blob/main/images/functions%20new%20pic.png?raw=true)
 
 ## Integrate the Machine Learning Model with Watson Assistant
 
