@@ -350,10 +350,6 @@ We will be using this testing sandbox for our integration. Send the given code/m
 
 ![5a](https://user-images.githubusercontent.com/12492961/118401223-e4bdb980-b675-11eb-885c-c0d8c71e7ba2.jpg)
 
-Click [here](https://api.whatsapp.com/send?phone=+1(415)523-8886&text=join%20design-thumb) to send the message to given number or Scan this QR Code.
-
-![WA](https://user-images.githubusercontent.com/12492961/118401683-a2957780-b677-11eb-88aa-93adb2b79271.png)
-
 Once it's done, you should see Message Received on Twilio like this image. 
 
 ![5b](https://user-images.githubusercontent.com/12492961/129473031-634099af-b17b-4696-8e26-86c36d4fe21e.png)
