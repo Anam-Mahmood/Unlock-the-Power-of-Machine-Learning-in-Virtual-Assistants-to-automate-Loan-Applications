@@ -6,15 +6,12 @@ Within a bank’s loan department, a customer’s application undergoes a lot of
 
 Now a days businesses also use chatbots to increase productivity and provide a better customer experience. This demo aims to automate the banking experience for customers regarding loan applications using Watson Studio machine learning, Cloud function, and then extend the Watson Assistant chatbot’s capabilities by connecting it to WhatsApp using Twilio. We will be using Twilio’s sandbox to show how this integration works.
 
-## Masterclass Resources
+## Resources
 
 - Login/Sign Up for IBM Cloud: https://ibm.biz/artelligence2021
   
 - Hands-On Guide: https://ibm.biz/artelligence-handson
 
-- Slides: https://ibm.biz/artelligence-slides
-
-- Workshop Replay: https://artelligenceforum.com 
 
 ## Table of Contents
 - [Prerequisites](#Prerequisites)
