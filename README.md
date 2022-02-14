@@ -8,9 +8,7 @@ Now a days businesses also use chatbots to increase productivity and provide a b
 
 ## Resources
 
-- Login/Sign Up for IBM Cloud: https://ibm.biz/artelligence2021
-  
-- Hands-On Guide: https://ibm.biz/artelligence-handson
+- Login/Sign Up for IBM Cloud: https://ibm.biz/BdfU36
 
 
 ## Table of Contents
@@ -21,7 +19,7 @@ Now a days businesses also use chatbots to increase productivity and provide a b
 - [Integrate the Machine Learning Model with Watson Assistant](#Integrate-the-Machine-Learning-Model-with-Watson-Assistant)
 
 ## Prerequisites
-- [IBM Cloud Account](https://cloud.ibm.com/registration?utm_medium=Inpersondirected&utm_content=000039JL&utm_term=10010797&utm_id=Sep2021-unlockthepowerofmachinelearninginproductionforallskillsetsinahybridmulti-cloudworld-eventid-6106368814ed54d56fef33ef-global-devadvgrp-dubai-hybrid-conference-dubai)
+- [IBM Cloud Account](https://ibm.biz/BdfU36)
 - [Twilio Account](https://www.twilio.com/try-twilio)
 
 **Sign-up/Login to IBM Cloud**
@@ -367,21 +365,13 @@ This means that now your phone number is connected to this Twilio-WhatsApp sandb
 
 In this tutorial, you were able to successfully integrate your Watson Assistant with WhatsApp through Twilio. Since this is a tutorial, we were using WhatsApp-Twilio sandbox to show you how this integration work. If you want to use WhatsApp-Twilio with the Assistant for a real use case, then you will need to have a premium Twilio Account, a Facebook Business Manager ID and apply for permission. You can find more information about this [here](https://cloud.ibm.com/docs/assistant?topic=assistant-deploy-whatsapp).
 
-## Workshop Speakers
+## Contributors
 
-- [Fawaz Siddiqi](https://linktr.ee/thefaz)
 - [Anam Mahmood](https://www.linkedin.com/in/anam-mahmood-sheikh/)
 - [Khalil Faraj](https://www.linkedin.com/in/khalilfaraj/)
-
-## Masterclass Resources
-
-- Login/Sign Up for IBM Cloud: https://ibm.biz/artelligence2021
-  
-- Hands-On Guide: https://ibm.biz/artelligence-handson
-
-- Slides: https://ibm.biz/artelligence-slides
-
-- Workshop Replay: https://artelligenceforum.com 
+- [Masa Abushamleh](https://www.linkedin.com/in/masa-abushamleh/)
+- [Mridul Bhandari](https://www.linkedin.com/in/mridul-bhandari/)
+ 
 
 
 
