@@ -155,7 +155,7 @@ There are 3 steps to create your account on IBM Cloud:
 
 1. Click on manage next to your account name and in the drop down list choose “Access (IAM)”.
 
-![AccessIAM](https://github.com/Anam-Mahmood/CP4D-Banking-Demo/blob/main/images/parameters%201.png?raw=true)
+![AccessIAM](https://github.com/Anam-Mahmood/Unlock-the-Power-of-Machine-Learning-in-Virtual-Assistants-to-automate-Loan-Applications/blob/main/images/parameters%201-min.png?raw=true)
 
 2.	Click on API keys on the right side.
 
